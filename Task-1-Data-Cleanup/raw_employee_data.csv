@@ -1,0 +1,521 @@
+employee_id,full_name,age,gender,email,phone,department,job_title,salary,salary_range,city,hire_date,years_at_company,performance_score,education_level,remote_work,projects_completed,training_hours,satisfaction_score,last_promotion_year,manager_id
+E0001,AMBER HILL,30,Male,curtishobbs@example.com,204-273-8437,Marketing,Marketing Manager,51639,50000-100000,New York,N/A,11,3.4,High School,No,44,56,3.5,2024,E0045
+E0002,Jessica Hernandez,43,Male,davidharris@example.org,392.413.2184x8777,Product,UX Designer,97298,75000-140000,New York,2021-07-03,4,4.7,Bachelor's,NO,40,92,7.3,N/A,E0006
+E0003,KATHERINE MILLER,45,Female,villanuevasamantha@example.com,687.904.7338,HR,HR Coordinator,51619,45000-90000,San Francisco,2018-06-25,6,2.0,Associate's,YES,40,56,8.6,2019,E0021
+E0004,Anthony Johnston,58,Non-binary,cody75@example.com,245-937-4916x26102,Product,Product Owner,92546,75000-140000,Austin,2024-07-28,1,4.0,Associate's,NO,14,35,1.8,NULL,E0011
+E0005,ANNA RUIZ,51,female,ortizjohn@example.com,8515025368,Product,Product Manager,114086,75000-140000,San Francisco,2024-07-03,1,4.1,PhD,Yes,10,184,3.4,2019,E0007
+E0006,David Moore,32,female,iburnett@example.net,001-278-491-0329x71307,Finance,Financial Analyst,126540,60000-130000,Atlanta,n/a,9,4.3,PhD,No,none,21,8.3,2022,E0009
+E0007,justin gordon,49,Female,hartjacob@example.com,+1-717-383-5399x0173,Legal,Compliance Officer,86643,65000-135000,Denver,2021-10-27,4,4.6,Associate's,Yes,4,150,6.3,-,E0015
+E0008,Maria Ayala,39,MALE,owenserica@example.com,+1-620-918-3992x404,Marketing,Campaign Manager,52058,50000-100000,Chicago,2020-02-21,5,1.4,Associate's,Hybrid,29,13,9.9,NaN,E0007
+E0009,patricia robertson,49,Female,marywalker@example.org,001-496-909-4200x1624,HR,HR Manager,57556,45000-90000,Miami,2022-10-30,3,4.3,Bachelor's,No,31,102,2.5,NaN,E0030
+E0010,terri walker,57,MALE,fmadden@example.org,+1-576-641-0094x885,Finance,Financial Analyst,115444,60000-130000,Miami,2013-11-18,11,3.3,High School,NO,32,47,NULL,2019,E0037
+E0011,Todd Hudson,48,female,melissaerickson@example.com,001-862-863-4407x75334,HR,HR Coordinator,82940,45000-90000,Boston,2016-02-10,9,3.6,Associate's,Hybrid,4,none,10.0,N/A,E0009
+E0012,TONYA MORSE,50,female,bakerbill@example.net,8222231047,Operations,Operations Manager,54508,50000-95000,Miami,2022-11-11,3,4.5,PhD,Yes,47,69,2.9,2023,E0017
+E0013,Rebecca Shaw,39,Male,N/A,994.972.0196x3860,Legal,Paralegal,97914,65000-135000,Atlanta,2024-08-06,0,1.4,Master's,NO,n/a,37,1.4,2024,E0003
+E0014,Nicole Ellis,44,female,gbarry@example.net,001-893-339-4695x41554,Operations,Supply Chain Analyst,63767,50000-95000,Chicago,2014-07-01,10,1.1,PhD,YES,47,68,7.3,2018,E0015
+E0015,FELICIA MURRAY,36,Female,N/A,880.442.4606x080,HR,HR Coordinator,75166,45000-90000,Seattle,2020-06-05,5,4.9,High School,Hybrid,7,66,9.7,2018,E0023
+E0016,maria miller,58,Female,robinsontracy@example.org,511-767-2382,Operations,Operations Manager,78599,50000-95000,Miami,2016-11-17,9,2.7,PhD,NO,7,76,7.0,2023,E0009
+E0017,WILLIAM CAMPBELL,33,female,warejohnathan@example.org,001-883-567-8340,HR,HR Manager,72554,45000-90000,Chicago,2015-08-17,10,2.3,Associate's,YES,32,188,1.8,2023,E0006
+E0018,Rodney Jacobs,31,Male,stevensjuan@example.com,684-619-0655x16402,HR,People Ops,89092,45000-90000,San Francisco,2021-10-06,4,3.9,Associate's,YES,9,1,8.7,2024,E0012
+E0019,Kim Vasquez,29,MALE,jennifercontreras@example.net,644-473-0019x267,Legal,Paralegal,71582,65000-135000,Atlanta,2017-05-31,8,4.6,Associate's,No,30,192,6.7,2022,E0016
+E0020,caleb myers,39,Non-binary,dsilva@example.net,+1-323-848-4257x511,Finance,Accountant,117654,60000-130000,Denver,2024-12-24,1,2.7,PhD,NO,3,107,7.9,2018,E0049
+E0021,KRISTIN DICKERSON,46,MALE,aaronbishop@example.org,+1-233-585-2620x869,Product,Scrum Master,106259,75000-140000,Atlanta,2024-08-11,0,2.6,Associate's,hybrid,29,159,9.2,2023,-
+E0022,Samantha Parker,46,Non-binary,laura11@example.org,5074965650,Product,Product Owner,83893,75000-140000,Denver,2017-03-25,7,4.0,Bachelor's,Hybrid,4,166,NULL,2019,E0040
+E0023,RONALD BUTLER,58,Female,lyonssavannah@example.net,851.797.3543,Sales,Sales Manager,76266,45000-120000,Dallas,2022-04-28,2,1.7,PhD,Yes,19,96,7.4,-,E0016
+E0024,JEREMY DOYLE,60,Male,holly12@example.net,894.350.7463,Marketing,Marketing Manager,95691,50000-100000,Denver,2012-03-11,12,2.4,Associate's,YES,23,117,4.9,2023,E0035
+E0025,justin turner,42,Female,travismark@example.org,(411)914-2163x74515,Legal,Contract Specialist,125931,65000-135000,Atlanta,2019-11-16,6,1.1,PhD,No,22,87,6.4,2022,N/A
+E0026,KYLE ANDREWS,37,MALE,woodsjennifer@example.com,001-725-281-2767x6254,Marketing,Marketing Manager,65817,50000-100000,Chicago,2013-09-07,11,3.3,Associate's,NO,27,140,7.3,2020,E0047
+E0027,louis gray,33,Female,jeremypotter@example.org,838.271.5118,HR,People Ops,65679,45000-90000,Miami,2023-04-13,1,2.2,PhD,No,45,70,NULL,2023,E0041
+E0028,virginia smith,52,MALE,ronaldsanford@example.net,990-690-6383,Legal,Paralegal,78446,65000-135000,Atlanta,2024-02-03,0,1.3,Bachelor's,No,36,21,2.1,2022,E0040
+E0029,TODD GILBERT,41,female,lauriephillips@example.org,604-239-8759x738,HR,People Ops,-,45000-90000,San Francisco,2018-08-01,6,2.1,Bachelor's,No,35,0,7.2,2018,E0046
+E0030,mary hanson,38,female,stephaniepeterson@example.org,+1-484-847-1301x555,Finance,Budget Analyst,119510,60000-130000,Chicago,2023-09-30,1,1.3,Master's,Hybrid,36,112,7.2,2020,E0032
+E0031,Danielle Davis,42,female,maciascalvin@example.com,+1-752-236-3685x9820,Legal,Legal Counsel,75543,65000-135000,Seattle,2015-06-29,9,3.6,PhD,No,27,125,5.2,2020,E0011
+E0032,NANCY MORRIS,47,female,NULL,(466)228-0894x9005,Operations,Logistics Coordinator,76977,50000-95000,Denver,2013-01-02,11,3.2,Associate's,Yes,23,127,7.8,2022,E0019
+E0033,Tamara Parker,60,Female,zbowers@example.org,320-638-4195,Legal,Legal Counsel,128532,65000-135000,San Francisco,2023-04-27,1,1.5,Master's,YES,18,69,5.3,2021,E0025
+E0034,sonia robinson,26,Non-binary,macdonaldwilliam@example.net,(657)919-3024,HR,HR Coordinator,84280,45000-90000,Miami,2016-01-03,8,2.2,High School,NO,31,114,4.1,2022,E0021
+E0035,KATHY BRADLEY,48,Male,harperwilliam@example.org,+1-317-705-8899x74656,HR,Talent Specialist,60650,45000-90000,Austin,2015-02-07,9,4.9,PhD,Yes,28,116,N/A,2023,E0005
+E0036,anita munoz,27,Non-binary,bsolis@example.org,503-611-5439x2060,Legal,Contract Specialist,99737,65000-135000,Atlanta,2019-02-06,5,1.9,PhD,No,27,194,8.9,2023,E0002
+E0037,Elizabeth Cooper,45,MALE,amyrivera@example.com,(455)968-8029,Engineering,Tech Lead,112516,70000-150000,Austin,2012-03-21,12,2.5,Master's,YES,9,163,3.3,NaN,E0044
+E0038,ROBERT BAILEY,41,MALE,rhodeserica@example.net,268.719.5787,Sales,Sales Manager,54681,45000-120000,Denver,2017-04-20,7,3.3,High School,Hybrid,18,-,1.1,2024,E0004
+E0039,Dominic Forbes,44,Female,joshuaroberson@example.com,855.662.4808,Legal,Compliance Officer,102512,65000-135000,New York,2013-03-27,12,n/a,Master's,Yes,20,44,8.1,2020,E0018
+E0040,MASON MILES,43,Male,vanessawilliams@example.com,991-284-3325,Sales,Account Executive,78681,45000-120000,Denver,2018-07-25,7,4.2,Bachelor's,Hybrid,29,191,6.3,2020,E0015
+E0041,deanna carr,61,Female,rduarte@example.org,436-857-2172x160,Legal,Contract Specialist,68280,65000-135000,Seattle,2015-04-30,9,4.8,PhD,YES,15,34,4.3,2023,E0027
+E0042,Brandon Sanchez,61,MALE,longrandy@example.net,864-274-3357x62071,Sales,Sales Manager,99379,45000-120000,Atlanta,2015-01-07,10,3.7,High School,hybrid,25,31,8.4,N/A,E0039
+E0043,TARA ADAMS,30,female,aguilarjoseph@example.com,(922)833-4085x992,Engineering,Tech Lead,76629,70000-150000,Chicago,2012-08-26,12,1.6,High School,Yes,9,138,2.6,2018,E0023
+E0044,Michele Watkins,25,Female,ryangamble@example.net,948.549.3003,HR,HR Manager,83591,45000-90000,Boston,2019-04-22,5,1.9,High School,Yes,42,117,1.3,2024,E0044
+E0045,EMILY POWELL,27,Non-binary,johnsonmanuel@example.com,(837)948-6242x780,Marketing,Content Writer,82130,50000-100000,Dallas,2013-11-29,11,3.4,PhD,YES,27,179,6.9,2022,E0014
+E0046,ANTONIO STEELE JR.,51,MALE,wrodriguez@example.org,001-739-776-8877x85972,Product,Product Owner,104593,75000-140000,Seattle,2021-06-06,3,2.9,Bachelor's,Yes,6,95,6.0,2022,E0043
+E0047,jeffrey kirby,49,Male,manningkaitlyn@example.com,(895)479-6222x346,Marketing,Content Writer,76922,50000-100000,Miami,2020-11-03,5,4.4,PhD,NO,48,57,8.6,2024,E0044
+E0048,john bush,33,Non-binary,oharris@example.org,744-641-9079,Engineering,DevOps Engineer,149822,70000-150000,Austin,2015-08-03,10,1.3,Bachelor's,Yes,13,116,4.3,2024,E0039
+E0049,Nicole Edwards,25,Male,farleysteven@example.com,7543883328,Marketing,Brand Strategist,53447,50000-100000,Denver,2023-06-09,2,2.7,PhD,hybrid,31,78,NaN,2018,n/a
+E0050,THOMAS WILLIS,29,Male,fbarry@example.org,001-732-873-6657x430,HR,Recruiter,53993,45000-90000,Chicago,2013-11-15,12,1.3,Bachelor's,YES,NULL,147,4.6,2020,E0002
+E0051,courtney arroyo,45,Male,courtney14@example.org,+1-534-576-6986x156,Operations,Process Engineer,61263,50000-95000,Miami,2012-11-13,12,1.9,Master's,Yes,7,49,4.1,2024,E0010
+E0052,SUSAN HIGGINS,60,Female,brianabowen@example.net,783-644-9084x783,HR,Recruiter,51737,45000-90000,Atlanta,2023-08-01,2,2.8,High School,hybrid,39,160,5.0,2023,E0018
+E0053,Charles Mercado,50,Male,rojastoni@example.org,490-955-7581,Engineering,Software Engineer,116129,70000-150000,San Francisco,2017-06-03,8,3.3,Bachelor's,YES,36,82,5.5,2021,E0022
+E0054,Lori Torres,-,MALE,herrerakaren@example.net,+1-632-520-1071x61959,Marketing,Campaign Manager,83066,50000-100000,Boston,2015-02-01,10,2.4,High School,Yes,41,84,7.1,2023,E0039
+E0055,shirley moore,44,Non-binary,moorepatrick@example.org,001-634-898-3691x860,Sales,Business Dev Rep,88694,45000-120000,San Francisco,2024-01-21,1,2.3,Master's,hybrid,47,134,7.0,2018,E0012
+E0056,SAMANTHA WILLIAMS,30,Female,bbeck@example.net,+1-933-850-3751,HR,HR Manager,67395,45000-90000,Miami,2013-06-23,12,n/a,High School,No,9,177,8.3,2021,n/a
+E0057,SUSAN GREEN,50,Female,christopherwilkins@example.com,412.372.1526,HR,Talent Specialist,74111,45000-90000,Chicago,2016-08-07,9,2.8,PhD,YES,26,51,2.2,2023,E0024
+E0058,Stephen Berry,32,Non-binary,michelle90@example.net,568-347-0614x09139,Marketing,Brand Strategist,96622,50000-100000,Chicago,2016-12-23,8,2.7,Associate's,NO,24,95,3.9,-,E0010
+E0059,GEORGE GONZALEZ,30,MALE,emarsh@example.com,001-214-416-8425,NULL,Sales Rep,50020,45000-120000,Austin,2021-09-15,4,1.4,PhD,No,3,163,5.1,2021,E0002
+E0060,TRACY AVILA,n/a,Female,jasonscott@example.org,576-570-1520x8557,HR,HR Manager,54409,45000-90000,Boston,2021-06-22,4,4.1,High School,NO,NaN,NaN,3.3,NULL,E0047
+E0061,DARRYL MARTINEZ,44,female,phillip16@example.org,(946)393-0310,Marketing,Brand Strategist,88135,50000-100000,Atlanta,2013-05-19,11,4.1,Associate's,Yes,2,10,3.8,2024,E0017
+E0062,MICHAEL FREEMAN,25,Non-binary,kellyatkinson@example.com,001-338-550-5372x002,Engineering,QA Engineer,95048,70000-150000,Atlanta,2021-01-30,4,1.7,Associate's,Hybrid,33,21,1.7,2024,E0019
+E0063,EUGENE CRUZ,41,MALE,douglasgarcia@example.com,(679)999-9232,Operations,Process Engineer,56723,50000-95000,New York,2023-12-28,1,2.7,Bachelor's,Yes,25,191,9.6,2022,E0029
+E0064,Justin Johnson,45,Non-binary,jasonnorton@example.org,485-372-3441x3250,Engineering,Tech Lead,86545,70000-150000,Atlanta,2024-01-16,1,1.3,Master's,NO,20,63,1.2,2022,E0036
+E0065,ALYSSA HARRIS,35,female,jsingh@example.net,643-259-2385x6668,Marketing,Brand Strategist,67155,50000-100000,Austin,2013-04-07,12,3.9,Bachelor's,hybrid,20,181,none,2020,E0046
+E0066,Taylor Cunningham,34,Female,powellamanda@example.com,912.776.5604x95985,Sales,Sales Manager,92381,45000-120000,Boston,2017-07-18,8,4.5,Bachelor's,Hybrid,45,134,4.7,2019,E0042
+E0067,marcus myers,30,female,michaelespinoza@example.net,449.692.4437,Marketing,SEO Specialist,79489,50000-100000,New York,2018-06-15,7,1.7,PhD,hybrid,33,20,6.7,2019,E0040
+E0068,Sara Mcdonald,59,Female,claudia39@example.com,001-923-479-5466x286,Marketing,Campaign Manager,82936,50000-100000,Dallas,2014-01-30,10,4.8,High School,Hybrid,49,158,5.5,2020,E0020
+E0069,amy jackson,51,Male,jonathanhill@example.com,802.908.2376,Legal,Contract Specialist,97096,65000-135000,Chicago,2012-05-27,12,3.9,PhD,YES,23,27,5.2,2019,E0004
+E0070,WALTER HOGAN,32,Non-binary,mgrant@example.org,759.432.1786,Finance,Accountant,110351,60000-130000,Atlanta,2016-04-23,9,2.2,Bachelor's,Yes,32,61,4.2,NaN,E0042
+E0071,Mary Morrison,49,Female,smithkaitlin@example.org,001-802-928-8126x019,Legal,Contract Specialist,102453,65000-135000,Denver,2017-07-29,8,3.2,Bachelor's,YES,48,159,2.1,2021,E0022
+E0072,ashlee mitchell dds,54,Male,yatesmegan@example.org,+1-977-310-5388x8860,Operations,Logistics Coordinator,59454,50000-95000,Miami,2022-09-13,3,1.6,High School,Hybrid,39,76,5.6,2021,E0020
+E0073,STEPHANIE BROWN,48,female,patelbrandon@example.org,001-834-466-6188x7476,Legal,Legal Counsel,67180,65000-135000,Seattle,2020-08-15,5,3.9,High School,YES,40,198,2.3,2018,E0045
+E0074,KEITH ROMAN,31,MALE,johndavis@example.com,+1-568-386-9158x48524,Marketing,Campaign Manager,62503,50000-100000,New York,2024-09-22,0,2.3,Associate's,NO,11,136,4.2,2023,E0045
+E0075,Laurie Mathis,41,Female,alexander82@example.net,686.799.0392,Finance,CFO,123462,60000-130000,Atlanta,2021-12-24,3,4.7,PhD,Hybrid,43,101,9.6,2020,-
+E0076,john moore,52,Female,vdalton@example.org,8286501042,Marketing,Campaign Manager,72699,50000-100000,Austin,2018-08-24,7,1.2,High School,No,3,84,1.9,2018,E0011
+E0077,MRS. AMY BRADSHAW,40,Non-binary,wmatthews@example.com,386-930-9770,Product,Product Manager,117787,75000-140000,Chicago,2017-02-08,7,1.7,Master's,Yes,25,47,9.7,2018,none
+E0078,KRISTINA TAYLOR,56,female,dwayne81@example.com,548.484.5449x3263,Marketing,Campaign Manager,71957,50000-100000,Chicago,2020-12-04,4,2.8,PhD,hybrid,47,75,7.8,2024,E0026
+E0079,David Hooper,28,Female,lesliehall@example.com,9407189955,Product,Product Analyst,NaN,75000-140000,Chicago,2019-10-01,5,2.2,High School,Yes,23,15,5.2,2023,E0046
+E0080,AUSTIN ROMERO,36,Female,browe@example.com,+1-741-736-5836x0635,Finance,Budget Analyst,75389,60000-130000,Dallas,2015-12-20,10,2.9,High School,hybrid,48,193,8.1,2022,E0005
+E0081,javier james,56,Female,courtney56@example.com,001-403-220-2786,Marketing,Brand Strategist,54047,50000-100000,Chicago,2017-05-15,8,3.0,Bachelor's,YES,26,14,7.1,2018,E0001
+E0082,Gabrielle Marsh,26,female,sheila46@example.org,4187776411,HR,HR Manager,82900,45000-90000,Atlanta,2024-02-23,1,1.5,Associate's,Hybrid,24,96,7.1,2022,E0023
+E0083,MITCHELL SCOTT,36,Male,zharrison@example.net,(437)605-8199,Marketing,Brand Strategist,61696,50000-100000,Miami,2017-01-23,8,2.0,PhD,No,46,8,4.8,2018,E0005
+E0084,GREGORY BELL,25,Female,aguilartara@example.org,+1-855-654-7319x8724,Marketing,SEO Specialist,88924,50000-100000,New York,2024-05-28,0,4.7,High School,Hybrid,49,82,8.9,2022,E0020
+E0085,shannon riley,33,MALE,howelljohn@example.org,358.441.3871x66837,Finance,CFO,67989,60000-130000,Denver,2016-11-22,8,2.6,PhD,YES,34,57,7.4,2018,E0027
+E0086,MAURICE BARRERA,27,MALE,lindseybauer@example.com,(266)990-0057x60395,Sales,Account Executive,NaN,45000-120000,Dallas,2021-03-16,3,4.0,High School,No,21,3,2.7,2023,E0031
+E0087,Lori Anderson,37,female,wmoore@example.com,845-551-4361x998,HR,Talent Specialist,84610,45000-90000,Boston,2014-01-04,11,3.0,Bachelor's,hybrid,20,94,1.4,2023,E0017
+E0088,Arthur Brown PhD,46,female,butlerdaniel@example.org,625.813.6367x1660,Product,UX Designer,94345,75000-140000,Atlanta,2023-10-20,2,2.8,PhD,No,34,138,9.6,2024,E0043
+E0089,Patricia Cole,36,Male,adam14@example.com,001-982-385-8435x767,none,QA Engineer,70836,70000-150000,Dallas,2019-09-24,6,3.6,Bachelor's,Yes,26,none,5.8,2022,E0044
+E0090,Laurie Faulkner,55,Female,xtaylor@example.net,747-521-6461,Product,UX Designer,127833,75000-140000,Seattle,2022-03-22,2,2.6,High School,No,14,20,8.7,2018,E0025
+E0091,Patricia Swanson,27,MALE,russell93@example.net,307.439.5242x13575,Legal,Paralegal,72355,65000-135000,San Francisco,2014-02-13,10,4.6,High School,YES,4,71,6.1,n/a,N/A
+E0092,DEANNA TAYLOR,37,female,wcole@example.com,(493)434-5798x28610,Sales,Regional Manager,97205,45000-120000,Austin,2024-12-06,1,3.0,PhD,Yes,14,87,6.5,2024,E0041
+E0093,James Smith,46,MALE,landerson@example.com,001-230-215-5103x145,Finance,Budget Analyst,119054,60000-130000,Dallas,2017-09-10,7,1.3,Master's,YES,40,99,2.0,n/a,E0049
+E0094,Julie Buckley,50,female,kimberly38@example.org,518.313.8025x4608,Finance,Financial Analyst,73399,60000-130000,Miami,2023-09-05,2,4.5,Bachelor's,Hybrid,49,143,9.8,2019,E0011
+E0095,ALEX VASQUEZ,26,Female,kevinwilliams@example.org,856-274-1832,Sales,Business Dev Rep,80247,45000-120000,Boston,2020-09-09,4,3.0,High School,No,8,101,6.6,2020,E0028
+E0096,megan nguyen,34,MALE,jacksontracy@example.com,(488)668-5756x4748,Sales,Sales Manager,84378,45000-120000,Atlanta,2019-09-06,5,2.1,Associate's,Hybrid,36,139,7.9,-,E0046
+E0097,RACHEL MONTOYA,26,MALE,berrypatricia@example.com,+1-448-472-7949x80305,HR,HR Coordinator,73734,45000-90000,Austin,2013-01-21,12,5.0,Associate's,NO,32,177,1.3,2023,E0035
+E0098,Abigail Guerra,44,Female,michaelakemp@example.com,(927)249-9910x7585,Marketing,Brand Strategist,57167,50000-100000,Boston,2013-03-16,12,1.4,Master's,NO,35,147,4.4,2023,E0033
+E0099,DANIEL MARTIN,48,Male,dcampbell@example.org,001-406-764-6176x202,Sales,Account Executive,90215,45000-120000,Boston,2024-04-15,0,2.4,Bachelor's,YES,28,76,-,2024,E0007
+E0100,Chelsea Wolfe,43,female,michaelkerr@example.com,(386)256-2702,Sales,Business Dev Rep,76970,45000-120000,Austin,2017-03-18,8,3.9,Master's,YES,24,N/A,7.8,2018,E0035
+E0101,Christine Adams,38,MALE,jennifersmith@example.net,+1-630-605-8868,Sales,Regional Manager,92945,45000-120000,Denver,2019-12-23,5,2.8,Master's,hybrid,19,151,2.2,2020,E0024
+E0102,AARON DAVIS,58,MALE,shannon67@example.com,398-412-3220,Sales,Regional Manager,111954,45000-120000,Austin,2019-05-17,6,1.7,Associate's,NO,n/a,124,8.3,2022,E0027
+E0103,RODNEY PENA,27,female,N/A,(307)662-9688,Legal,Paralegal,119477,65000-135000,Seattle,2014-04-14,11,4.1,Associate's,NO,36,198,9.9,2024,-
+E0104,Cheryl Mack,37,Non-binary,rwilliams@example.org,001-555-821-2321x607,n/a,Paralegal,93644,65000-135000,San Francisco,2018-05-01,6,1.9,High School,hybrid,45,109,2.3,2019,E0037
+E0105,carol williamson,42,Non-binary,joseph35@example.net,339-585-4376,Operations,Operations Manager,84883,50000-95000,Denver,2020-10-10,4,1.5,Master's,No,20,194,4.5,2023,E0027
+E0106,alexander crosby,27,MALE,christine28@example.net,480.652.3808,Product,UX Designer,104621,75000-140000,Atlanta,2023-01-03,1,4.4,Bachelor's,hybrid,40,91,8.2,2021,E0032
+E0107,ROBERT DAVIS,30,female,diazsteven@example.com,8222876953,Finance,Financial Analyst,-,60000-130000,Atlanta,N/A,4,1.0,Associate's,No,8,77,9.4,2023,E0006
+E0108,Jillian Cunningham,62,Non-binary,seanmartin@example.net,(866)529-7684x101,Operations,Process Engineer,93549,50000-95000,San Francisco,NaN,10,3.4,High School,hybrid,0,30,4.8,2018,E0006
+E0109,GABRIELLE COHEN,30,MALE,tharper@example.com,564.476.7067x656,Marketing,SEO Specialist,56763,50000-100000,Austin,2020-07-30,5,-,Master's,YES,13,38,6.5,2019,E0007
+E0110,lori wagner,49,Non-binary,danielle06@example.net,8402137816,Sales,Sales Rep,61142,45000-120000,Dallas,2016-09-14,9,4.8,Bachelor's,hybrid,13,130,4.5,2024,E0016
+E0111,Angela Lara,60,Male,steven37@example.net,+1-529-371-0878,Legal,Paralegal,115578,65000-135000,Austin,2024-08-05,1,3.2,Master's,YES,49,150,n/a,2018,E0026
+E0112,REGINA HARDIN,47,Male,ejones@example.org,660-362-8029x6581,Finance,Accountant,125673,60000-130000,Seattle,2012-07-27,12,1.6,PhD,YES,48,174,3.8,2024,E0016
+E0113,MICHAEL LONG,25,Non-binary,courtneysweeney@example.org,+1-660-998-7978,Marketing,SEO Specialist,78474,50000-100000,Austin,2023-06-17,1,2.4,High School,hybrid,23,199,7.6,2018,E0028
+E0114,PHILLIP KEMP,58,Male,johnshelton@example.org,+1-207-817-0399,Finance,Financial Analyst,128662,60000-130000,Dallas,2023-06-11,1,1.4,High School,hybrid,14,0,NULL,2021,E0010
+E0115,donna douglas,48,Female,youngjacqueline@example.com,(906)555-7586,Sales,Sales Manager,49635,45000-120000,San Francisco,2016-05-02,8,4.6,Master's,No,2,17,8.8,2020,E0036
+E0116,Robert Howard,41,female,xgarrison@example.org,+1-417-937-2698x825,Legal,Contract Specialist,66044,65000-135000,Chicago,2020-07-13,5,2.0,Bachelor's,YES,none,177,9.6,-,E0048
+E0117,casey taylor,48,MALE,william16@example.org,668.513.0153,Finance,Accountant,73624,60000-130000,San Francisco,2021-08-26,3,3.1,PhD,YES,5,129,8.4,none,E0043
+E0118,RONALD DAVIS,47,Non-binary,erickhan@example.net,+1-883-261-9585x6967,Sales,Sales Rep,76034,45000-120000,Austin,2021-08-21,4,1.4,Associate's,YES,7,197,3.8,2018,E0044
+E0119,MICHAEL WARREN,37,Non-binary,brownfernando@example.net,(236)223-3663x047,Finance,CFO,65286,60000-130000,Austin,2022-02-19,3,3.2,High School,No,6,35,1.6,2019,E0026
+E0120,brooke wright,59,Non-binary,ryan55@example.net,(592)910-9151x463,Operations,Operations Manager,94976,50000-95000,Atlanta,2014-04-05,10,4.3,PhD,Yes,NaN,146,7.5,2021,E0012
+E0121,NOAH BARRETT,31,Male,tmartin@example.net,874-829-4799,Operations,Logistics Coordinator,64071,50000-95000,Miami,2022-03-31,2,1.5,Master's,hybrid,33,139,9.9,2020,E0032
+E0122,RENEE JOHNSON,33,Male,omay@example.com,929.252.2907x2814,Operations,Logistics Coordinator,NaN,50000-95000,Miami,2017-08-21,8,4.9,Bachelor's,No,17,188,N/A,2024,E0012
+E0123,GARY ARROYO,44,female,-,452.967.1344x6157,Sales,Regional Manager,76005,45000-120000,Dallas,2016-05-19,9,1.7,Bachelor's,Yes,none,134,4.0,2024,E0046
+E0124,Marcus Anthony,31,Male,wking@example.net,001-999-608-1656x86725,Sales,Sales Rep,87413,45000-120000,Denver,2024-06-21,0,1.5,Master's,hybrid,50,124,2.6,2023,E0040
+E0125,jack anderson,46,Non-binary,hallmichael@example.net,635-763-6885x840,Operations,Supply Chain Analyst,64630,50000-95000,Dallas,2015-08-05,10,none,PhD,NO,36,127,7.7,2020,E0006
+E0126,BILLY DIAZ,26,Non-binary,jacobstephenson@example.com,479.800.2889x68048,Operations,Operations Manager,NaN,50000-95000,Denver,2024-07-30,0,2.5,High School,YES,30,147,7.2,2018,E0003
+E0127,ROBERT WARNER,26,Non-binary,julie89@example.com,+1-301-458-4980,Finance,Financial Analyst,62631,60000-130000,San Francisco,2020-09-20,5,3.8,Associate's,hybrid,27,25,9.8,2022,E0047
+E0128,Danny Jones,47,female,jesus68@example.net,(646)693-3806,Finance,Financial Analyst,96899,60000-130000,Denver,2021-11-08,4,2.9,Bachelor's,Yes,40,20,2.0,2021,E0043
+E0129,jonathan scott,45,MALE,pjohnson@example.com,001-288-419-7532,Finance,CFO,71945,60000-130000,Seattle,2014-10-03,10,1.6,Bachelor's,Yes,34,193,6.0,2024,E0035
+E0130,PAMELA GARRETT,24,female,justinjackson@example.org,623-953-9986x091,Legal,Compliance Officer,95886,65000-135000,Atlanta,2017-06-21,7,4.2,Master's,Yes,43,160,6.4,2023,E0005
+E0131,SHERRI RODGERS,39,female,cvaughn@example.org,6862011639,Marketing,Campaign Manager,75434,50000-100000,Denver,2016-06-02,8,3.4,Bachelor's,Yes,6,137,8.9,2023,E0039
+E0132,ANNETTE CLARK,61,female,joshua96@example.org,+1-902-434-5347x9859,Legal,Contract Specialist,69910,65000-135000,Boston,2022-02-20,2,4.7,PhD,Yes,50,71,8.7,2024,E0020
+E0133,michael owen,27,Female,hernandezcollin@example.net,2787732285,Legal,Contract Specialist,107056,65000-135000,Miami,2020-02-27,4,1.6,PhD,hybrid,8,134,1.3,2024,E0004
+E0134,Joy Booth,34,Non-binary,susanreyes@example.com,+1-971-810-9138x802,HR,Talent Specialist,47167,45000-90000,San Francisco,2017-09-05,7,3.4,Master's,YES,22,66,7.2,2021,none
+E0135,Chase Garrison,39,MALE,sotojerry@example.net,944-279-0445x3293,HR,HR Manager,59506,45000-90000,Austin,2015-09-08,10,1.9,High School,Hybrid,45,108,8.7,2019,E0044
+E0136,Dr. Cassandra Greene MD,45,female,whiteheadwilliam@example.com,001-913-207-9969x4917,Product,UX Designer,113304,75000-140000,Atlanta,2023-10-11,1,4.4,PhD,hybrid,41,38,3.2,none,E0021
+E0137,MAX SMITH,38,MALE,kelly37@example.com,001-577-971-9304x24579,Sales,Regional Manager,48336,45000-120000,Dallas,2014-12-18,10,1.9,High School,hybrid,42,76,8.6,2019,E0031
+E0138,alexandra brown,33,Non-binary,westjohn@example.net,001-641-297-6387x55861,Sales,Account Executive,78902,45000-120000,Seattle,2013-12-06,11,3.3,Associate's,Yes,40,158,9.0,2024,E0034
+E0139,Jennifer Hamilton,34,Non-binary,meganpowell@example.org,001-976-993-6077x71949,Finance,Budget Analyst,114146,60000-130000,Austin,2024-09-06,0,4.9,PhD,hybrid,NaN,194,6.2,2024,E0006
+E0140,HANNAH HUFF,52,MALE,none,001-441-845-9781x5429,Sales,Sales Manager,101847,45000-120000,Boston,2015-06-28,10,3.7,Master's,No,22,26,6.3,2024,n/a
+E0141,kirk reyes,30,Non-binary,etaylor@example.org,499-755-3244,Legal,Compliance Officer,133195,65000-135000,Denver,N/A,9,1.5,Bachelor's,NO,7,166,4.4,2024,E0004
+E0142,Evelyn Garcia,29,MALE,christian47@example.org,824-640-9178x85106,Engineering,DevOps Engineer,84170,70000-150000,Austin,2015-12-04,10,2.2,Bachelor's,hybrid,39,35,9.1,2022,E0008
+E0143,abigail carter,38,female,dmurphy@example.net,+1-403-808-8604x383,Marketing,Brand Strategist,82619,50000-100000,New York,2021-08-01,3,2.9,Master's,Yes,NULL,146,2.3,none,E0047
+E0144,Christina Allen,40,Non-binary,christophergonzalez@example.com,976-593-7970x17036,Marketing,SEO Specialist,66770,50000-100000,Seattle,2015-11-25,10,4.0,Bachelor's,Yes,N/A,43,9.1,2020,E0006
+E0145,Keith Hall,51,Non-binary,johnwest@example.com,489.487.1568x0257,Operations,Process Engineer,72460,50000-95000,Austin,2023-12-14,2,4.9,Master's,Yes,37,145,2.6,2020,E0044
+E0146,Alice Harper,50,Male,james03@example.com,731-629-6891x170,Sales,Sales Rep,108318,45000-120000,Miami,2018-08-14,7,1.9,PhD,NO,44,110,3.2,2023,E0010
+E0147,Casey Singh,52,MALE,amber98@example.com,001-276-777-2319,Engineering,QA Engineer,71526,70000-150000,Boston,2014-02-21,10,3.2,Associate's,YES,5,146,8.7,2018,E0048
+E0148,COLLEEN GALLAGHER,none,Male,hmoore@example.org,687.866.5318x79402,Engineering,Tech Lead,83453,70000-150000,Miami,2019-11-02,6,4.8,PhD,Yes,29,196,5.3,2023,E0007
+E0149,PATRICIA PATTERSON,40,female,amberlin@example.net,633-520-2312x99947,HR,HR Manager,45143,45000-90000,Atlanta,2020-02-24,5,3.4,Master's,Yes,25,200,4.0,2018,E0044
+E0150,christopher caldwell,54,Female,joeldelgado@example.com,+1-839-607-7380,-,Marketing Manager,79524,50000-100000,Denver,2018-05-10,7,4.1,Master's,hybrid,46,26,6.4,2022,E0027
+E0151,NOAH MARTINEZ,50,Female,jeremy26@example.com,(464)778-1551x3672,HR,People Ops,62930,45000-90000,Miami,2019-12-30,6,3.2,Master's,No,45,88,2.2,2019,E0045
+E0152,CODY LEWIS,59,female,terrydanielle@example.com,+1-943-316-5992x190,Operations,Logistics Coordinator,57563,50000-95000,Denver,2013-06-19,12,2.5,Bachelor's,hybrid,n/a,41,7.2,2018,E0019
+E0153,KYLE FOWLER,28,female,nancywest@example.com,(412)615-2029x054,HR,Recruiter,80466,45000-90000,Miami,2024-09-18,0,4.2,PhD,hybrid,24,175,6.0,n/a,E0050
+E0154,cynthia hernandez,45,female,johnjames@example.org,+1-554-837-4391x00473,Legal,Compliance Officer,94563,65000-135000,Austin,2014-03-18,10,1.7,High School,Yes,27,67,6.3,2020,E0010
+E0155,gloria jackson,62,female,millercynthia@example.com,602.685.0464x166,Engineering,Tech Lead,90146,70000-150000,San Francisco,2019-11-22,5,4.8,High School,Yes,10,137,4.1,2023,E0024
+E0156,christopher gomez,57,Male,icooper@example.net,4434575054,Finance,Accountant,88632,60000-130000,Dallas,2012-09-06,12,3.7,PhD,YES,7,138,1.2,2024,E0033
+E0157,BRANDON MITCHELL,34,Non-binary,natasha57@example.com,(545)761-0564x36172,Legal,Compliance Officer,128806,65000-135000,Miami,2024-11-16,0,3.7,Master's,hybrid,6,179,7.7,2024,E0048
+E0158,douglas brock,27,Male,greentoni@example.com,(628)614-8935x498,Sales,Regional Manager,N/A,45000-120000,Seattle,2018-04-07,7,2.7,Bachelor's,YES,34,-,7.8,2023,E0023
+E0159,sharon andrews,27,Non-binary,acantrell@example.com,394.872.1329x977,Marketing,Brand Strategist,68994,50000-100000,New York,2013-06-30,12,4.0,High School,Hybrid,9,186,9.6,none,E0003
+E0160,BRANDI BERNARD,27,Non-binary,iwebster@example.com,001-343-217-2730x5231,Engineering,DevOps Engineer,145067,70000-150000,Miami,2015-07-08,9,4.3,Master's,Yes,36,192,9.9,2022,E0043
+E0161,Kurt Conner,53,Non-binary,yolandacallahan@example.com,(552)603-5017,Marketing,SEO Specialist,66429,50000-100000,Dallas,2023-07-18,1,2.8,High School,hybrid,37,145,3.8,2018,E0015
+E0162,Jonathan Green,43,MALE,diazpaul@example.org,+1-364-300-0229x9773,Product,UX Designer,93132,75000-140000,San Francisco,2020-09-13,5,2.1,Master's,NO,46,19,9.0,2023,none
+E0163,Vanessa Long,57,Non-binary,andrea87@example.com,6482449628,Product,Product Owner,125410,75000-140000,Austin,2015-08-17,9,3.4,PhD,No,32,93,7.0,2024,E0044
+E0164,MICHAEL OCONNELL,58,female,trevinobrenda@example.net,813.390.1150x352,Sales,Business Dev Rep,112388,45000-120000,New York,2023-05-15,2,2.1,Master's,Yes,33,92,9.3,2018,E0021
+E0165,mark santiago,38,female,djohnson@example.org,992-713-1562,Marketing,Brand Strategist,96120,50000-100000,San Francisco,2017-01-20,8,1.9,Associate's,Hybrid,22,123,1.1,2021,E0005
+E0166,Zachary Smith,60,Male,gary13@example.net,519.925.1740,Finance,CFO,87723,60000-130000,Atlanta,2023-05-06,2,1.6,Associate's,Yes,8,41,5.6,2019,E0017
+E0167,laura cruz,62,Male,austin23@example.org,(344)417-5316x8718,Sales,Sales Manager,112717,45000-120000,Chicago,2019-04-28,6,1.7,Associate's,NO,37,46,5.6,2023,E0030
+E0168,AUTUMN PEREZ,23,Female,justinhale@example.net,(213)353-4233x95589,Marketing,Brand Strategist,65061,50000-100000,Dallas,2019-05-03,6,3.4,High School,NO,5,33,5.9,-,E0034
+E0169,kenneth schultz,36,MALE,ojones@example.net,001-452-937-5933x176,Product,Scrum Master,99273,75000-140000,Dallas,2024-03-09,0,4.1,Bachelor's,Hybrid,34,48,-,2022,E0034
+E0170,Victoria Scott,42,MALE,ramoskerri@example.com,+1-322-742-9583x983,Engineering,Tech Lead,119155,70000-150000,Miami,2015-01-10,10,5.0,Associate's,No,50,45,6.0,2020,E0050
+E0171,raven parrish,36,MALE,christina31@example.org,+1-571-480-4851x68421,Product,Product Manager,123220,75000-140000,Denver,2023-07-18,2,3.7,Bachelor's,No,40,NULL,5.2,2018,E0015
+E0172,Donna Irwin,47,female,frivera@example.org,482.636.6805x438,Operations,Operations Manager,55245,50000-95000,Austin,2016-03-25,9,-,High School,Hybrid,50,132,6.5,2020,E0001
+E0173,TIMOTHY WHITE IV,47,MALE,whiteashley@example.org,368.435.8791,Sales,Sales Rep,56382,45000-120000,Miami,2021-07-26,4,2.4,PhD,No,12,103,3.3,2018,E0033
+E0174,dennis martinez,56,female,victoriamartinez@example.net,786-822-2240x888,Finance,Budget Analyst,104560,60000-130000,Chicago,2024-04-14,1,4.6,Bachelor's,YES,4,56,3.1,2020,E0001
+E0175,Deborah Whitaker,43,Male,sheri18@example.net,+1-845-574-2501,Finance,CFO,92539,60000-130000,Dallas,2021-11-30,4,1.8,Master's,No,16,51,8.5,2024,E0006
+E0176,jason cunningham,52,Non-binary,carrillokayla@example.net,604.235.8011x1454,Legal,Paralegal,65868,65000-135000,Miami,2012-08-15,12,1.5,High School,YES,34,n/a,7.2,2018,E0030
+E0177,matthew howell,59,Male,christopher32@example.com,508-273-8152x323,Operations,Logistics Coordinator,50551,50000-95000,Seattle,2024-08-29,0,2.4,Master's,YES,26,95,4.6,2022,E0037
+E0178,JESSE DELGADO,57,MALE,michael78@example.com,828.784.8826x47187,HR,Recruiter,51545,45000-90000,New York,2014-05-27,11,4.6,High School,NO,50,64,6.1,2023,E0014
+E0179,Kathleen Williams,43,Non-binary,amyjacobs@example.org,001-917-304-5737,Finance,CFO,122460,60000-130000,Denver,2015-11-27,10,1.8,High School,hybrid,11,72,7.1,2023,E0006
+E0180,KENNETH FITZGERALD,31,Female,wmoore@example.com,(530)247-0583x752,Product,Product Owner,115217,75000-140000,Dallas,2020-03-14,4,2.4,PhD,Hybrid,45,165,9.0,2020,E0034
+E0181,James Macdonald,30,Female,stephaniekirby@example.net,662.677.7104,Legal,Legal Counsel,119262,65000-135000,Denver,2022-03-07,2,2.9,Bachelor's,Yes,33,21,6.6,NaN,E0016
+E0182,Jacqueline Curtis,32,Male,n/a,(463)452-4058,Finance,CFO,118085,60000-130000,Atlanta,2015-07-08,10,3.2,Master's,hybrid,37,161,8.9,2023,E0020
+E0183,Teresa Schmidt,50,Non-binary,wadeandre@example.org,227-333-6971x860,Operations,Logistics Coordinator,none,50000-95000,Austin,2017-04-25,8,3.8,Associate's,YES,49,74,8.2,2019,E0036
+E0184,Suzanne Berry,46,MALE,alexanderbarber@example.com,(970)376-1769x6170,Product,Product Analyst,100870,75000-140000,Dallas,2022-12-03,3,3.6,High School,Hybrid,4,74,5.1,2023,E0013
+E0185,Jenny Watson,23,Female,smithbrian@example.com,+1-803-987-9629x0315,Operations,Supply Chain Analyst,51271,50000-95000,New York,2022-06-04,2,N/A,PhD,YES,31,118,1.3,N/A,E0050
+E0186,MELANIE ROGERS,38,MALE,todd35@example.com,001-604-406-6292x97232,Product,Product Analyst,79678,75000-140000,Atlanta,2016-02-04,8,3.9,Bachelor's,NO,13,174,9.4,2023,none
+E0187,cheryl parker,45,Male,weaverryan@example.org,001-618-320-6168x7149,Marketing,Marketing Manager,66601,50000-100000,Denver,2017-06-21,7,3.3,Associate's,No,NULL,176,6.4,2018,E0032
+E0188,KIMBERLY CRAWFORD,62,Male,christine06@example.com,606.320.2573,Marketing,Campaign Manager,94954,50000-100000,Austin,2015-11-21,9,4.2,PhD,YES,1,91,3.3,-,E0019
+E0189,Alyssa Rodriguez,42,MALE,mthompson@example.com,260-375-2921x1998,Legal,Compliance Officer,N/A,65000-135000,Atlanta,2015-09-27,9,2.8,High School,YES,1,93,3.1,2023,E0025
+E0190,BETH WALKER,31,female,thomas69@example.net,+1-437-944-5610x76342,HR,HR Coordinator,79345,45000-90000,Miami,2014-02-14,10,1.5,Bachelor's,No,12,146,4.5,2022,E0017
+E0191,paul ho,22,Female,jessica81@example.net,(518)254-0063x9155,Engineering,Software Engineer,118018,70000-150000,New York,2022-03-02,3,4.2,Bachelor's,NO,2,77,2.9,2018,E0035
+E0192,madeline austin,58,Female,breyes@example.com,001-610-975-0350x2703,Product,Product Manager,87416,75000-140000,Dallas,2022-04-15,3,2.7,Bachelor's,No,35,86,5.8,2020,E0036
+E0193,laurie johnson,42,female,edwardsmith@example.com,975-833-6985x66221,Operations,Process Engineer,74361,50000-95000,Seattle,2019-04-09,6,2.6,Bachelor's,Hybrid,33,77,N/A,2020,-
+E0194,michael singleton dds,31,Male,n/a,+1-395-762-9923x89190,Finance,CFO,127013,60000-130000,Dallas,2016-09-19,8,1.4,Associate's,NO,46,83,2.6,2023,E0007
+E0195,beverly smith,25,Non-binary,tgarrett@example.org,487-701-8987,Finance,Budget Analyst,64898,60000-130000,San Francisco,2013-08-21,11,4.4,Bachelor's,hybrid,24,134,none,2020,E0015
+E0196,michael french,50,female,quinncarrie@example.net,441.912.2116,Sales,Business Dev Rep,51621,45000-120000,Denver,2014-12-11,10,3.3,Bachelor's,NO,5,111,2.2,2022,E0026
+E0197,alisha lopez,37,Male,fdavis@example.net,(733)713-3020,HR,People Ops,81776,45000-90000,Denver,2015-12-23,9,2.4,Bachelor's,Hybrid,22,113,5.0,2019,E0024
+E0198,jill johnson,61,Female,donald07@example.org,(858)732-6990x548,Sales,Sales Rep,56247,45000-120000,San Francisco,2024-04-27,1,N/A,High School,No,33,140,7.6,2023,E0025
+E0199,Lonnie Patel,61,Non-binary,castillojim@example.com,7222066777,Engineering,Software Engineer,-,70000-150000,Seattle,2023-11-07,2,1.4,PhD,hybrid,24,181,3.8,2022,E0013
+E0200,Martha Parsons,41,Non-binary,david83@example.com,+1-638-911-7530x54895,Legal,Legal Counsel,67816,65000-135000,Boston,2024-06-03,0,4.9,High School,Hybrid,40,99,8.3,none,E0015
+E0201,christine hunter,46,female,brandon93@example.net,8208105390,Sales,Account Executive,89798,45000-120000,Dallas,2018-11-16,6,2.3,High School,No,8,175,8.8,2023,E0009
+E0202,Joanne Bryant,58,Female,susan19@example.org,001-957-495-0103x8201,Product,Product Manager,134572,75000-140000,Austin,2012-11-22,12,2.7,Associate's,Hybrid,40,70,2.7,2018,E0040
+E0203,Brady Baker,23,Non-binary,butlermary@example.org,+1-840-720-6893x4154,Finance,Accountant,90266,60000-130000,Dallas,2016-10-27,9,4.4,Associate's,YES,12,104,1.1,2021,E0043
+E0204,Joseph Spears,50,female,ucook@example.org,215-683-5489,HR,Talent Specialist,58406,45000-90000,Denver,2023-02-12,1,4.3,PhD,YES,47,137,8.9,2022,E0030
+E0205,anna thompson,24,female,michael87@example.net,658.918.7656,Engineering,Software Engineer,102207,70000-150000,Atlanta,2016-11-07,8,2.1,Master's,YES,3,36,6.8,none,E0050
+E0206,TONY FOSTER,33,MALE,cmills@example.com,547-547-4694,Sales,Account Executive,96520,45000-120000,San Francisco,2019-12-10,6,3.8,Master's,hybrid,5,115,1.8,2023,E0033
+E0207,KEVIN REED,32,Non-binary,karaharvey@example.com,001-995-979-9781x236,Sales,Account Executive,94634,45000-120000,Austin,2017-12-30,8,2.2,Associate's,Hybrid,7,51,n/a,NaN,E0035
+E0208,Anthony Sanchez,52,MALE,benjamin77@example.com,568.494.4157,Engineering,Tech Lead,none,70000-150000,Seattle,2018-07-25,7,1.8,Master's,No,n/a,NULL,8.5,2018,NaN
+E0209,MATTHEW VANCE,60,female,beckyfernandez@example.org,424-277-7949,Sales,Business Dev Rep,66146,45000-120000,Boston,2014-04-06,10,2.3,Associate's,Yes,35,120,7.3,2022,E0014
+E0210,Paula Oneal,62,female,eric02@example.com,365.480.6743x786,HR,People Ops,85111,45000-90000,Seattle,2024-06-11,0,3.3,High School,Hybrid,39,133,5.5,2022,E0019
+E0211,Robert Bolton,29,Female,wardmichael@example.org,001-454-408-0162x5335,HR,Talent Specialist,n/a,45000-90000,Miami,2023-08-06,1,N/A,PhD,Hybrid,19,140,1.1,2020,E0037
+E0212,JADE MARTINEZ,52,MALE,michelle19@example.net,+1-302-723-7732,Engineering,QA Engineer,93020,70000-150000,Atlanta,2022-07-04,3,2.8,Associate's,hybrid,none,185,6.0,none,E0023
+E0213,Edward Wang MD,46,female,sheltonsteven@example.com,764-781-5114,Marketing,Brand Strategist,59784,50000-100000,San Francisco,2020-11-11,4,2.3,Bachelor's,Hybrid,31,95,9.6,2020,E0024
+E0214,VICTORIA MCDONALD,52,female,piercechristopher@example.org,630-934-7352x19538,Engineering,QA Engineer,96489,70000-150000,Miami,2023-12-02,1,4.5,High School,hybrid,13,117,8.8,2020,E0044
+E0215,Kevin Ramirez,41,Male,idudley@example.com,+1-313-885-5316,Marketing,SEO Specialist,71842,50000-100000,Chicago,2018-06-30,7,2.8,Bachelor's,Hybrid,17,159,1.9,2022,E0010
+E0216,Tammy Allen,43,female,smithchristopher@example.org,601-909-1824x12420,Finance,Budget Analyst,92089,60000-130000,New York,2022-02-25,2,2.6,High School,NO,44,157,4.0,2024,E0035
+E0217,KEVIN PATTON,27,MALE,payneconnor@example.org,(989)443-9016x64697,Marketing,Brand Strategist,99528,50000-100000,Chicago,2013-09-23,12,2.5,Master's,hybrid,21,83,1.3,2020,E0011
+E0218,alex rich,28,MALE,robertthomas@example.net,001-484-772-2098x9051,Finance,CFO,105693,60000-130000,San Francisco,2016-06-29,9,3.4,Master's,NO,10,98,N/A,2022,E0028
+E0219,Miguel Tate,26,female,jamescarrillo@example.org,001-551-227-6705x863,Operations,Process Engineer,85686,50000-95000,San Francisco,2013-06-30,11,2.6,High School,Yes,38,97,6.8,N/A,E0038
+E0220,Alexander Stanton,40,MALE,agonzalez@example.org,250.591.1133x199,Engineering,Senior Engineer,89231,70000-150000,Boston,2015-11-27,10,4.8,Associate's,hybrid,22,149,none,2019,E0004
+E0221,Steven Owens,44,Male,pnichols@example.org,+1-452-903-1494x7968,Operations,Supply Chain Analyst,85971,50000-95000,Dallas,2024-06-11,0,2.6,Associate's,NO,11,48,8.6,2021,E0043
+E0222,David Carter,31,MALE,kyle68@example.org,232.851.3214x31165,Sales,Account Executive,62600,45000-120000,Denver,2024-12-22,0,2.7,Master's,YES,35,98,2.7,2022,E0047
+E0223,ERIC BURCH,58,Non-binary,NULL,+1-557-317-1970x7965,HR,HR Coordinator,77881,45000-90000,Atlanta,2020-03-22,4,3.9,PhD,YES,33,22,6.7,2023,E0041
+E0224,dr. wendy francis,52,MALE,bryan66@example.org,6893457784,Finance,CFO,66917,60000-130000,Seattle,2019-02-06,5,3.4,PhD,hybrid,16,121,6.2,2020,E0040
+E0225,Vincent Tran,26,Non-binary,mkelley@example.net,+1-695-578-7419x2260,Engineering,DevOps Engineer,107593,70000-150000,New York,2018-09-11,7,3.4,Master's,hybrid,11,179,2.6,2018,E0006
+E0226,JULIAN NELSON,37,MALE,monica92@example.net,(435)914-2069,Sales,Regional Manager,65204,45000-120000,Boston,2017-09-28,7,1.5,Master's,YES,19,192,3.1,2021,E0010
+E0227,RICHARD FIELDS,42,female,kimberlyweber@example.org,+1-895-742-7576x7458,Product,Scrum Master,75777,75000-140000,Denver,2021-10-29,4,2.3,PhD,Yes,37,197,3.2,2024,E0022
+E0228,Jeff Robertson,26,Male,amandameza@example.com,972.479.4745,Sales,Business Dev Rep,86060,45000-120000,Seattle,2016-02-04,8,NULL,Bachelor's,NO,13,163,9.6,none,E0043
+E0229,Andrew Hernandez,51,Male,dylan38@example.com,606-834-4310,Sales,Sales Manager,59528,45000-120000,Boston,2013-03-17,11,1.2,Associate's,Hybrid,16,67,1.6,2019,E0012
+E0230,caitlin brock,35,female,robertbush@example.net,453-893-7509,Legal,Paralegal,79212,65000-135000,San Francisco,2022-09-14,2,1.1,Associate's,No,0,170,2.4,2021,E0033
+E0231,JOSE RASMUSSEN,26,female,sabrina20@example.org,001-573-201-2291,Legal,Contract Specialist,127670,65000-135000,Miami,2019-01-03,6,2.2,Bachelor's,hybrid,41,136,4.1,2024,E0042
+E0232,Brianna Mendez,34,Non-binary,qking@example.net,921-404-1004,HR,HR Coordinator,56574,45000-90000,Atlanta,2016-05-23,8,NULL,High School,No,4,164,5.8,2021,E0002
+E0233,KRISTA NASH,24,MALE,dillonlawrence@example.com,701-829-2109x406,Engineering,Tech Lead,114470,70000-150000,Miami,2024-10-23,0,1.3,Master's,YES,30,158,-,2018,E0004
+E0234,brian walker,59,Male,ftaylor@example.org,732.804.9061x50073,Finance,Budget Analyst,72752,60000-130000,Dallas,2017-07-27,7,4.2,Associate's,Hybrid,43,35,9.7,2018,E0022
+E0235,Allison Perez,32,Non-binary,jonesjames@example.net,001-602-271-8234x592,Marketing,Campaign Manager,NULL,50000-100000,Dallas,2020-06-10,4,NaN,Bachelor's,Yes,NULL,151,4.7,2024,E0009
+E0236,NICOLE COMPTON,48,Female,allenwilliams@example.org,933.391.3341x46685,HR,HR Manager,54377,45000-90000,Atlanta,2014-04-01,10,4.1,PhD,YES,N/A,135,6.6,2022,E0030
+E0237,Taylor Simpson,31,MALE,lvalenzuela@example.org,426.683.2542x57858,HR,HR Manager,n/a,45000-90000,Seattle,2024-05-08,0,4.2,Associate's,Yes,3,45,1.3,2018,E0047
+E0238,Michelle Nguyen,42,Female,tracyking@example.net,486.210.7769x50303,Legal,Legal Counsel,107725,65000-135000,Denver,2019-01-20,6,1.3,High School,YES,NaN,156,4.5,2023,E0023
+E0239,Fernando Galvan,none,Male,jakealexander@example.net,364.649.0841,Finance,Budget Analyst,86504,60000-130000,Austin,2019-08-14,5,3.4,High School,No,35,22,5.7,2019,E0030
+E0240,AARON RAMIREZ,37,Female,itran@example.org,+1-681-928-7760,Finance,Controller,61901,60000-130000,Dallas,2014-03-04,11,1.2,Associate's,hybrid,2,100,8.2,2021,E0006
+E0241,Kimberly Hull,37,Male,-,(658)496-9085,Engineering,QA Engineer,123296,70000-150000,Dallas,NaN,3,1.6,Associate's,No,23,180,8.7,-,E0003
+E0242,CHRISTINE ROBERTS,61,female,wilsonlaura@example.net,(744)841-9530x8764,Finance,Financial Analyst,115823,60000-130000,Boston,2012-02-26,12,4.6,PhD,Yes,23,10,2.6,2018,E0050
+E0243,Kevin Fuller,52,female,juanhammond@example.net,(495)214-0312x315,HR,Recruiter,54070,45000-90000,Seattle,2020-03-09,5,1.3,PhD,YES,33,120,7.1,2020,E0024
+E0244,Jeffrey Rich,33,Non-binary,ramirezholly@example.com,4084721854,Marketing,SEO Specialist,62343,50000-100000,Austin,2017-07-29,7,3.5,PhD,YES,34,121,5.0,2020,E0002
+E0245,THERESA BURTON,43,Non-binary,ijohnson@example.org,3356033940,HR,People Ops,79053,45000-90000,Atlanta,2015-08-04,10,4.2,Master's,Hybrid,23,197,2.3,2019,E0011
+E0246,andrea duncan,31,Female,davidbrown@example.org,+1-664-455-9463x1686,Finance,CFO,83891,60000-130000,Atlanta,2022-07-08,2,3.8,PhD,Hybrid,28,41,2.1,NaN,E0030
+E0247,omar vasquez,54,Non-binary,gilljoshua@example.org,001-938-465-1181x65895,Operations,Logistics Coordinator,60227,50000-95000,Dallas,2024-10-16,0,4.7,PhD,hybrid,30,35,2.1,none,E0029
+E0248,John Allison,34,female,timothy32@example.net,(773)993-5180,Operations,Logistics Coordinator,56060,50000-95000,San Francisco,2020-04-01,5,4.8,High School,YES,20,130,9.2,2019,E0028
+E0249,Gregory Orozco IV,44,Non-binary,tara94@example.org,944-515-4518x62144,Operations,Operations Manager,75304,50000-95000,Atlanta,2020-03-01,5,2.2,Associate's,hybrid,8,153,2.9,2024,E0022
+E0250,KRISTINE ROBBINS,48,Non-binary,kimberly73@example.net,511.909.5554x18717,Marketing,Campaign Manager,88710,50000-100000,Austin,2013-01-25,12,3.0,PhD,NO,35,57,NULL,2020,E0041
+E0251,danielle blake,48,Female,evan87@example.org,001-936-879-6120x2603,Legal,Compliance Officer,n/a,65000-135000,Atlanta,2014-03-10,10,2.4,Associate's,NO,16,121,8.4,2023,E0017
+E0252,DIANA KIM,30,Non-binary,kevin84@example.org,001-882-807-4006x495,Sales,Business Dev Rep,52669,45000-120000,Boston,2022-10-26,2,4.7,High School,No,11,153,5.9,2024,E0020
+E0253,jason ramirez,31,Male,gwallace@example.net,001-293-946-1486x159,Finance,Budget Analyst,107516,60000-130000,Austin,2023-06-08,1,4.3,High School,NO,33,182,7.8,2021,E0008
+E0254,LAURA PONCE,45,Female,murillosheila@example.org,3047013942,Sales,Regional Manager,47277,45000-120000,Boston,2017-11-08,7,NULL,Master's,No,9,78,2.2,-,E0008
+E0255,SHARI GLOVER,24,Female,williamcalhoun@example.org,277.390.4795x189,Marketing,Campaign Manager,51232,50000-100000,Atlanta,2012-09-16,12,n/a,Bachelor's,Yes,38,51,4.2,-,E0038
+E0256,charles taylor,61,Female,parksanthony@example.org,+1-640-945-2502,Operations,Operations Manager,73081,50000-95000,Chicago,2022-06-25,2,3.1,Bachelor's,No,45,178,5.0,2019,E0025
+E0257,Michael Estrada,42,Male,icabrera@example.net,524.495.3371x1080,Product,Product Owner,89042,75000-140000,Seattle,2016-02-11,8,3.0,Associate's,Hybrid,47,113,4.7,2021,E0005
+E0258,Lindsey Ruiz,53,Male,arianajackson@example.net,(540)514-4117,Legal,Legal Counsel,113161,65000-135000,Denver,2023-08-28,2,4.0,Master's,Yes,12,152,4.6,2021,E0018
+E0259,LOGAN HANSON,47,MALE,bgreen@example.org,249.462.9752x039,Finance,Budget Analyst,112459,60000-130000,Seattle,2019-08-25,5,1.5,Bachelor's,hybrid,NULL,6,4.4,2019,E0040
+E0260,michelle scott,53,MALE,bakermartin@example.org,+1-899-279-2639x444,Marketing,Brand Strategist,99818,50000-100000,Miami,2024-07-07,1,4.8,Bachelor's,YES,7,80,5.0,N/A,E0050
+E0261,JESSICA BURNS,46,MALE,heidicunningham@example.com,(617)904-5090x8582,Finance,Budget Analyst,81514,60000-130000,Miami,2018-05-03,7,1.6,Bachelor's,YES,37,157,7.9,2018,NULL
+E0262,anita rodriguez,62,Non-binary,jimenezmichael@example.org,228-871-0921,Sales,Sales Manager,93026,45000-120000,New York,2019-09-11,5,2.2,Bachelor's,hybrid,19,43,n/a,-,E0037
+E0263,nicole smith,23,Non-binary,vking@example.org,918-629-7164,Product,Scrum Master,92473,75000-140000,Atlanta,2024-12-11,0,3.0,PhD,No,23,51,8.6,2024,E0014
+E0264,JOHNNY PONCE,47,Female,gnewton@example.net,001-402-329-9779x4798,Finance,Controller,94754,60000-130000,Boston,2024-10-17,0,2.9,Master's,Hybrid,41,129,4.9,2019,E0017
+E0265,danielle marsh,33,female,simsnicholas@example.net,835.926.4409,Legal,Contract Specialist,88671,65000-135000,Miami,2024-08-10,0,3.9,Bachelor's,NO,29,38,7.9,2021,E0005
+E0266,BOB MENDOZA,38,female,johnflores@example.net,(439)976-4296x0300,HR,Recruiter,72029,45000-90000,Chicago,2020-11-13,4,3.2,Associate's,YES,2,69,3.3,2023,E0042
+E0267,Danielle Taylor,27,Non-binary,thompsonshawn@example.org,890-741-3970x1082,Engineering,QA Engineer,133680,70000-150000,San Francisco,2012-05-23,12,3.3,High School,Yes,37,134,9.0,2018,E0021
+E0268,KELLY GONZALEZ,37,MALE,kylescott@example.com,(714)217-3633,Operations,Supply Chain Analyst,88294,50000-95000,Atlanta,2014-08-27,11,3.1,Bachelor's,Hybrid,30,71,9.4,2023,E0020
+E0269,christopher spencer,25,Female,ccastillo@example.org,(415)519-9181,Engineering,DevOps Engineer,149405,70000-150000,San Francisco,2024-05-01,0,2.6,Associate's,Hybrid,48,53,2.4,2020,E0050
+E0270,JENNIFER MORRIS,53,MALE,kenneth74@example.net,3292651404,Product,UX Designer,126728,75000-140000,San Francisco,2024-12-23,0,1.3,Associate's,NO,35,116,7.9,2019,E0042
+E0271,Miguel Wilkerson,42,female,bairddustin@example.com,752.747.9284,Sales,Regional Manager,45403,45000-120000,Austin,2019-12-04,6,4.8,Associate's,YES,8,175,3.9,2018,E0012
+E0272,desiree rodriguez,23,female,williamhowell@example.org,675-281-0175x7698,Product,Product Manager,132435,75000-140000,Chicago,2018-06-22,6,none,Associate's,NO,5,43,2.1,2021,E0030
+E0273,courtney duarte,39,Non-binary,wmcdowell@example.net,001-531-438-3695x79527,Legal,Contract Specialist,80533,65000-135000,Dallas,2021-10-17,3,1.8,Master's,YES,1,67,5.1,2022,E0030
+E0274,Ashley Simon,47,Female,imartinez@example.com,652-209-8519x70444,Marketing,Campaign Manager,50676,50000-100000,San Francisco,2017-02-23,7,1.9,PhD,NO,38,11,none,2020,E0043
+E0275,Michelle Roberts,38,Female,gonzalezscott@example.org,795.956.8762x22848,Operations,Process Engineer,58666,50000-95000,Boston,2017-03-19,8,1.5,Bachelor's,No,17,110,8.9,2024,E0034
+E0276,JOSHUA WILLIAMS,53,Female,ashley94@example.net,462-447-8916x8840,Operations,Process Engineer,N/A,50000-95000,New York,2022-02-06,2,1.7,Associate's,YES,31,n/a,6.0,2018,E0010
+E0277,Shannon Ross,33,Female,teresa40@example.net,001-407-295-5484x1548,Marketing,Campaign Manager,72911,50000-100000,Dallas,2023-01-05,1,3.3,Associate's,Yes,31,84,-,2018,E0038
+E0278,David Phillips,52,MALE,barnettsean@example.net,(319)593-4211,Marketing,Marketing Manager,71203,50000-100000,New York,2023-04-09,2,3.9,High School,No,3,72,1.5,none,E0026
+E0279,GREGORY HALL,35,Female,hernandezbrian@example.com,748.846.4783,Finance,Accountant,83332,60000-130000,Atlanta,2021-11-14,3,3.4,PhD,hybrid,23,125,4.5,2022,E0049
+E0280,dr. james carroll phd,62,MALE,pagecrystal@example.com,001-621-729-1861x11081,Product,Product Owner,128149,75000-140000,Austin,2020-06-23,5,3.1,PhD,YES,30,32,3.7,2021,E0004
+E0281,Michael Ray,48,Male,gmartin@example.net,001-843-509-9330,Marketing,Content Writer,52955,50000-100000,Dallas,2017-05-30,8,-,Associate's,No,25,NaN,3.7,2021,E0029
+E0282,Mark Wang,27,female,deborahmorris@example.org,001-858-848-4471,Finance,Budget Analyst,104739,60000-130000,New York,2012-01-14,12,2.9,Associate's,hybrid,38,77,9.8,2023,E0044
+E0283,Peter Carter,22,Female,jenniferkhan@example.com,308.302.0731x481,N/A,Product Manager,127732,75000-140000,Austin,2021-03-22,4,4.4,High School,No,49,121,2.0,2023,E0032
+E0284,jodi king,40,female,yreese@example.org,776.487.0711,Legal,Paralegal,-,65000-135000,Denver,2018-05-23,7,3.4,High School,Hybrid,NaN,151,9.4,2024,E0046
+E0285,ALLISON ROBINSON MD,57,Male,davidjefferson@example.com,(605)516-7258x65675,Engineering,QA Engineer,139246,70000-150000,Dallas,2024-06-26,0,2.7,Master's,Hybrid,30,59,6.3,2022,E0046
+E0286,samuel ross,48,Non-binary,mark72@example.com,(788)714-4613,Legal,Compliance Officer,82191,65000-135000,Seattle,2020-03-29,4,1.5,Master's,No,6,126,2.9,NULL,E0017
+E0287,Levi Price,54,Male,amy34@example.com,(654)261-0237,Operations,Operations Manager,94363,50000-95000,San Francisco,2023-05-14,2,2.4,PhD,Yes,35,38,8.9,2018,E0029
+E0288,janice sherman,28,female,cfigueroa@example.org,+1-726-383-8642,Legal,Legal Counsel,79539,65000-135000,Boston,2023-10-27,1,4.0,Associate's,hybrid,9,85,2.1,2021,E0001
+E0289,FELICIA SMITH,27,Non-binary,msmith@example.com,+1-283-439-9814x55767,HR,HR Coordinator,76042,45000-90000,Chicago,2020-06-26,5,1.9,Associate's,YES,29,132,4.3,N/A,E0046
+E0290,JACK JAMES,32,MALE,crobertson@example.net,482-288-9083x830,Marketing,SEO Specialist,55556,50000-100000,New York,2020-12-31,5,4.5,PhD,YES,43,77,3.8,2024,E0034
+E0291,donald martinez,56,female,christinelowe@example.com,+1-213-465-1265x38118,Sales,Sales Manager,97944,45000-120000,Denver,2017-11-05,7,3.1,Associate's,hybrid,8,138,1.8,2022,E0041
+E0292,joshua brooks,37,Non-binary,marcuscollins@example.net,502.992.4374x076,Sales,Sales Rep,48069,45000-120000,Boston,2024-09-16,0,1.2,Bachelor's,YES,47,n/a,8.2,2022,E0041
+E0293,DALE DORSEY,58,Female,melindafields@example.org,5393038954,HR,Recruiter,67959,45000-90000,Miami,2021-01-04,4,1.6,Associate's,YES,3,33,5.0,2022,E0036
+E0294,christina woods,49,MALE,richardwarren@example.org,001-214-320-7514x5988,Product,Product Owner,132148,75000-140000,Austin,2021-05-11,4,1.5,High School,NO,13,8,9.5,2018,E0027
+E0295,michael west dvm,55,Female,ismith@example.net,(844)908-7273x91122,Marketing,Content Writer,57921,50000-100000,Atlanta,N/A,5,3.4,Bachelor's,Hybrid,13,189,2.1,2024,NaN
+E0296,ELIZABETH SUTTON,60,Female,gjones@example.com,+1-559-970-6904x0728,Finance,Budget Analyst,119293,60000-130000,Atlanta,2019-11-30,5,3.5,High School,YES,25,11,9.0,2023,E0011
+E0297,anthony anderson,29,female,elizabetharellano@example.org,+1-744-263-9540x46067,Engineering,Tech Lead,144972,70000-150000,New York,2015-06-19,10,2.9,Bachelor's,Yes,34,4,2.9,2024,E0029
+E0298,PATRICIA CHURCH,24,MALE,manuel85@example.net,001-306-764-3299x888,NaN,SEO Specialist,84966,50000-100000,Miami,2015-09-21,9,4.9,High School,No,11,22,9.6,2018,E0021
+E0299,Victoria Jones,28,Non-binary,danielle33@example.net,211.383.6413,Sales,Sales Manager,48561,45000-120000,San Francisco,2013-09-03,11,3.3,Associate's,NO,24,68,NaN,2018,E0027
+E0300,jeffrey gonzalez,28,Female,tmartinez@example.com,001-383-963-1154x750,HR,Recruiter,46220,45000-90000,Denver,2021-10-13,4,4.1,Master's,Hybrid,10,137,9.7,2018,NaN
+E0301,Christine Jackson,52,Non-binary,morganwilcox@example.org,(447)402-9887x88263,Finance,Budget Analyst,81939,60000-130000,Chicago,2024-09-18,0,1.6,High School,NO,5,31,7.5,2021,E0033
+E0302,heather sherman,50,Non-binary,qmeyers@example.org,654-424-0467x96039,Operations,Logistics Coordinator,94702,50000-95000,Dallas,2020-12-09,5,4.7,High School,YES,NULL,105,7.3,2021,E0042
+E0303,dr. brooke smith,29,Non-binary,nwarren@example.org,001-708-875-7826x4716,Marketing,Campaign Manager,85300,50000-100000,Austin,2024-12-22,0,1.5,PhD,No,14,194,9.3,2018,E0041
+E0304,KATRINA HILL,24,Non-binary,psavage@example.org,600.240.8225x623,Finance,Controller,88986,60000-130000,Chicago,2022-10-16,3,4.5,High School,NO,35,189,7.1,2018,E0048
+E0305,randy camacho,55,Non-binary,matthewolson@example.org,(370)943-4033,Marketing,Campaign Manager,58351,50000-100000,Miami,2020-01-03,4,3.6,Bachelor's,Hybrid,26,174,5.5,2018,E0015
+E0306,cynthia martin,22,MALE,wendy47@example.net,+1-940-915-9855,Engineering,Tech Lead,106429,70000-150000,Chicago,2019-03-10,6,4.7,Master's,No,4,24,NaN,2022,E0022
+E0307,HEATHER MCCOY,43,Male,sgomez@example.org,+1-399-707-2843x08927,Finance,Accountant,92394,60000-130000,Dallas,2023-04-08,1,3.3,Bachelor's,Yes,24,177,N/A,NaN,E0040
+E0308,robert massey,25,Non-binary,robertroberts@example.net,521.510.9041,Product,Scrum Master,79311,75000-140000,Chicago,2024-11-06,1,2.8,Associate's,YES,39,166,8.0,2020,E0007
+E0309,george fernandez,34,female,tracy07@example.com,001-602-480-8387x16907,Marketing,Content Writer,50805,50000-100000,Dallas,2015-09-06,9,1.2,Master's,Hybrid,32,193,6.3,2019,E0020
+E0310,Angela Cooper,31,Male,stephen58@example.org,(285)253-4499x5793,Operations,Operations Manager,69075,50000-95000,Chicago,2020-10-17,5,4.1,PhD,No,44,119,4.0,2020,E0027
+E0311,HOWARD GALLAGHER JR.,24,MALE,dclark@example.com,592-774-3845x54749,N/A,Supply Chain Analyst,60635,50000-95000,Chicago,2023-12-06,1,2.5,Associate's,No,0,18,6.0,2021,E0038
+E0312,Jamie Williams,33,Female,rosemcdaniel@example.com,670-207-9557x0080,Operations,Logistics Coordinator,52877,50000-95000,Chicago,2024-01-12,0,2.0,Bachelor's,Yes,8,28,2.9,2020,E0043
+E0313,curtis lane md,26,Male,westanthony@example.org,(911)731-7280x44719,Sales,Account Executive,114065,45000-120000,Denver,2012-11-21,12,4.9,Master's,Yes,37,137,2.3,2023,E0009
+E0314,Samantha Mayer,61,Male,devon71@example.com,903.469.6193,Legal,Paralegal,92425,65000-135000,Atlanta,2014-12-31,11,3.8,Associate's,YES,25,149,2.9,2021,E0026
+E0315,DEBORAH CHEN,45,Non-binary,karlawilson@example.net,+1-224-685-7084x027,HR,HR Manager,65053,45000-90000,Miami,2019-08-21,6,none,High School,Hybrid,29,94,3.9,2019,E0017
+E0316,CONNOR WOLF,54,female,simmonsjose@example.org,(929)421-3129,Marketing,SEO Specialist,73533,50000-100000,San Francisco,2024-07-13,1,1.8,PhD,Hybrid,49,70,6.4,2024,E0048
+E0317,CURTIS WILSON,44,MALE,amanda93@example.org,678.400.9090x482,Finance,Financial Analyst,61118,60000-130000,Miami,2012-06-01,12,1.9,Master's,YES,37,193,8.3,2018,E0013
+E0318,JARED RUSSO,50,female,N/A,001-783-417-9024x54851,Product,Product Analyst,125471,75000-140000,New York,2014-11-06,11,2.4,Associate's,YES,25,176,3.9,NULL,E0010
+E0319,justin stewart,58,MALE,marksweeney@example.org,961-678-7753x16600,Operations,Process Engineer,NaN,50000-95000,Chicago,2014-12-03,10,2.8,PhD,Yes,43,8,6.4,N/A,E0025
+E0320,TROY CONRAD,26,MALE,kim19@example.org,(471)823-2141,Finance,Accountant,86986,60000-130000,Denver,2021-04-24,3,2.7,Bachelor's,YES,13,52,8.4,2019,E0020
+E0321,david hunt,34,Male,vbailey@example.com,001-648-385-3797x7303,HR,Talent Specialist,77930,45000-90000,Chicago,2014-08-06,11,2.8,High School,Yes,18,116,8.6,2021,E0012
+E0322,billy phillips,51,MALE,ewilliams@example.com,383-598-9780x8653,Product,Scrum Master,91327,75000-140000,New York,2022-06-11,2,3.5,PhD,hybrid,44,55,4.7,2018,E0005
+E0323,MARK CLAY,32,Non-binary,zprice@example.org,001-985-276-4154,Marketing,Marketing Manager,-,50000-100000,Atlanta,2013-02-12,12,2.6,Bachelor's,Hybrid,8,191,5.2,-,E0029
+E0324,Matthew Pratt,23,female,steven25@example.org,356.226.7407x5297,Sales,Regional Manager,106707,45000-120000,Austin,2020-01-12,4,1.6,PhD,No,2,136,7.3,2024,E0043
+E0325,CRAIG SALINAS,60,Male,imcdonald@example.net,+1-966-589-6414x95087,Marketing,SEO Specialist,75599,50000-100000,Boston,2013-07-24,11,2.7,Bachelor's,Hybrid,43,56,1.9,2023,E0011
+E0326,Kathy Green,42,female,kathryncooper@example.com,571-866-9339x398,Engineering,Tech Lead,124484,70000-150000,Denver,2016-08-06,8,2.3,Bachelor's,YES,0,117,6.9,2022,E0005
+E0327,jessica espinoza,28,female,harriscorey@example.com,(752)652-1743x43270,HR,People Ops,71941,45000-90000,San Francisco,2021-10-08,4,3.7,Master's,Hybrid,48,81,7.0,NULL,E0038
+E0328,erica williams,54,female,marcoandrade@example.com,964.801.3900x92772,NULL,Legal Counsel,115118,65000-135000,Denver,2017-09-26,8,1.6,Associate's,Hybrid,24,9,7.5,2021,E0022
+E0329,marvin boone,24,female,iporter@example.com,7603855491,Sales,Sales Manager,81454,45000-120000,Chicago,2019-12-06,5,1.8,Bachelor's,hybrid,43,56,4.4,2021,E0005
+E0330,Lindsey Green,31,Female,msexton@example.net,(808)585-8846,Legal,Compliance Officer,74173,65000-135000,San Francisco,2022-04-24,3,3.9,Master's,YES,15,147,6.7,2024,E0024
+E0331,DOUGLAS BAILEY,54,female,andrehaynes@example.net,+1-218-442-9392x512,Product,Product Owner,NaN,75000-140000,Denver,2022-11-04,2,1.6,Master's,Hybrid,19,96,5.3,2023,E0010
+E0332,noah fisher,45,MALE,stephaniebowman@example.org,(286)360-7614x5543,HR,Talent Specialist,45273,45000-90000,Boston,2024-06-06,0,3.4,Associate's,Yes,7,144,7.9,2024,E0047
+E0333,MELINDA COLE,45,Male,alvaradokenneth@example.net,(716)586-9083x5963,Operations,Supply Chain Analyst,83397,50000-95000,New York,2014-01-06,11,3.7,Master's,Hybrid,43,63,9.6,2018,E0006
+E0334,damon joseph,27,female,amycraig@example.org,001-919-512-5376x3197,Product,Product Analyst,101061,75000-140000,Seattle,2014-05-28,11,3.6,Associate's,NO,26,186,2.0,2024,E0010
+E0335,SHEILA HENRY,22,Female,imyers@example.net,7049763659,NULL,Budget Analyst,87462,60000-130000,Seattle,2013-06-24,11,1.7,Master's,No,32,115,2.9,2023,E0049
+E0336,STACY HARVEY,61,Male,fsmith@example.net,+1-230-322-8433x5465,HR,HR Coordinator,61996,45000-90000,San Francisco,2018-12-17,6,N/A,Associate's,YES,6,n/a,1.1,2018,E0034
+E0337,natasha blevins,39,MALE,wagnersteven@example.com,+1-729-344-2333x348,Engineering,QA Engineer,119239,70000-150000,Boston,2015-09-03,9,3.7,Associate's,NO,n/a,25,-,2024,E0009
+E0338,jennifer king,37,Non-binary,harrisonglenda@example.com,(958)917-2653x432,Engineering,QA Engineer,148893,70000-150000,Chicago,-,1,4.3,Bachelor's,hybrid,2,188,5.0,2021,E0006
+E0339,dawn tate,28,MALE,cody27@example.net,001-490-772-5813x660,Operations,Supply Chain Analyst,78043,50000-95000,Dallas,2018-06-01,7,NaN,Bachelor's,Hybrid,35,119,5.0,2023,E0016
+E0340,michael jensen,28,MALE,masseychris@example.com,(613)981-1688x958,n/a,Talent Specialist,56169,45000-90000,Chicago,2013-11-12,12,4.6,Bachelor's,hybrid,34,125,7.2,2022,E0039
+E0341,JOSEPH MYERS,46,female,ejarvis@example.net,(755)956-3361x3854,Marketing,SEO Specialist,92204,50000-100000,San Francisco,2019-04-25,5,4.0,Master's,hybrid,36,80,6.2,NULL,E0013
+E0342,LARRY HERRING,30,female,harringtonallen@example.net,001-967-584-2636,Product,Product Manager,139215,75000-140000,Miami,2018-11-20,6,4.8,Master's,YES,9,37,8.6,2018,E0020
+E0343,dr. brianna watts md,35,MALE,brian67@example.org,+1-320-518-6283x84064,Marketing,Marketing Manager,67920,50000-100000,Boston,2013-08-04,11,4.7,Master's,hybrid,49,124,3.7,2024,E0002
+E0344,mr. michael wolf md,44,MALE,mellis@example.com,001-545-820-5398,Product,UX Designer,97112,75000-140000,Chicago,2019-07-16,6,1.5,High School,Yes,45,167,2.2,2020,E0014
+E0345,john anderson,-,female,johnsonmichael@example.com,(569)927-4215,HR,Recruiter,57822,45000-90000,Denver,2013-06-22,11,1.4,Associate's,No,7,166,4.9,2023,E0003
+E0346,MELISSA RYAN,60,Female,vkelley@example.org,580-265-7270x744,Marketing,Marketing Manager,65784,50000-100000,Denver,2019-10-31,6,1.0,Bachelor's,Yes,41,130,6.3,2021,E0048
+E0347,RANDALL STEWART,49,Non-binary,kevin30@example.org,001-935-413-3387,Marketing,Marketing Manager,88854,50000-100000,Miami,2023-12-19,2,none,High School,NO,33,137,8.1,2024,E0043
+E0348,derrick garcia,57,MALE,alexander86@example.net,001-671-727-6321x77549,Marketing,SEO Specialist,61840,50000-100000,Austin,2015-09-20,9,1.1,Bachelor's,NO,34,168,n/a,none,E0019
+E0349,CHARLES ALLISON,55,Non-binary,stewartmarc@example.org,(262)221-0508x72905,Legal,Legal Counsel,83331,65000-135000,New York,2015-07-12,9,4.4,Master's,No,13,71,6.6,n/a,E0042
+E0350,Bobby Choi,49,Female,vargaswayne@example.org,(545)970-5596,Sales,Sales Manager,97436,45000-120000,Chicago,2018-08-01,7,4.3,High School,No,9,111,9.7,2020,E0008
+E0351,angela blackwell,43,Non-binary,amorris@example.net,001-466-538-1990,Product,UX Designer,NaN,75000-140000,Chicago,2019-04-18,5,1.5,High School,hybrid,37,125,4.1,2020,E0039
+E0352,JAMES HESS,46,Female,nvega@example.com,532.620.4381x63202,Marketing,Campaign Manager,53143,50000-100000,Denver,2022-05-11,2,3.7,Master's,hybrid,24,68,-,2020,E0016
+E0353,Richard Harrell,44,MALE,cwilson@example.com,001-721-955-9417,Product,Product Owner,121319,75000-140000,Chicago,2017-03-31,7,2.6,PhD,Yes,4,23,1.5,2022,E0001
+E0354,luke bailey,53,female,johnseric@example.com,(915)532-7568x94907,Product,Scrum Master,119370,75000-140000,Denver,N/A,8,4.0,Associate's,hybrid,22,189,9.3,2022,E0003
+E0355,christine rios,33,Male,rhodestina@example.com,678.837.0620x481,Legal,Paralegal,87089,65000-135000,Denver,2014-06-24,10,1.5,Master's,NO,7,123,2.9,2022,E0020
+E0356,DAWN SANCHEZ,22,female,wgreen@example.com,+1-884-248-4782x84239,Engineering,Software Engineer,-,70000-150000,Austin,2015-01-10,9,3.0,Bachelor's,NO,9,124,-,2021,E0020
+E0357,william hart,28,MALE,donna03@example.org,977-343-0105x8016,Operations,Supply Chain Analyst,78071,50000-95000,Denver,-,2,1.8,Bachelor's,No,47,8,2.8,2023,E0008
+E0358,RICHARD FLORES,30,Non-binary,ebony78@example.com,001-925-632-5869,Product,Product Owner,107051,75000-140000,Denver,2016-04-20,8,1.5,PhD,NO,-,173,4.9,2018,E0019
+E0359,DAVID RICE,31,female,andrea05@example.net,001-405-201-7799x37210,Finance,Financial Analyst,123691,60000-130000,Chicago,2024-03-15,1,3.8,Bachelor's,hybrid,39,151,2.3,2021,N/A
+E0360,john english,25,MALE,guy74@example.com,409-697-2146x80372,Sales,Account Executive,100876,45000-120000,Denver,2024-09-18,0,1.2,Bachelor's,Hybrid,22,63,1.4,NULL,E0021
+E0361,ANNETTE BOOTH,28,MALE,april06@example.com,(597)333-6630x12249,HR,HR Coordinator,63698,45000-90000,San Francisco,2017-01-14,7,4.1,Master's,Hybrid,23,150,4.3,2019,E0006
+E0362,terri davila,24,female,marshallmargaret@example.org,+1-829-851-1667x2389,Marketing,SEO Specialist,58551,50000-100000,Atlanta,2014-03-18,10,3.5,PhD,hybrid,48,184,2.2,2023,E0049
+E0363,aaron peterson,49,Male,dodsonalexa@example.org,(905)263-7842x2945,Operations,Operations Manager,73986,50000-95000,Seattle,2017-05-13,7,4.8,Bachelor's,hybrid,25,136,9.7,2024,E0036
+E0364,WILLIAM LOPEZ,22,Female,julieramirez@example.org,(613)457-1099x41229,Product,Product Manager,101270,75000-140000,Miami,2016-12-25,9,2.0,Master's,Hybrid,35,57,N/A,2023,E0018
+E0365,Robert Copeland,37,Female,smithjennifer@example.org,896-899-5587,n/a,Regional Manager,80446,45000-120000,Boston,2013-12-23,12,2.1,Master's,YES,18,14,1.1,2023,E0012
+E0366,eugene williamson,59,Male,joshuathomas@example.org,828-897-2506,Finance,CFO,62049,60000-130000,Dallas,2017-03-28,8,2.1,High School,hybrid,48,114,7.5,2021,E0012
+E0367,James Vazquez,33,Non-binary,N/A,4913266567,Legal,Contract Specialist,89251,65000-135000,Chicago,2022-03-15,2,2.8,Associate's,Yes,8,3,4.4,NULL,E0042
+E0368,Micheal Sullivan,62,female,NULL,+1-563-734-7516x230,Engineering,Software Engineer,87324,70000-150000,Boston,2021-03-29,3,2.9,High School,YES,19,39,5.9,2022,E0003
+E0369,Melissa Thompson,48,Female,N/A,(845)999-9379,NaN,Brand Strategist,85693,50000-100000,Seattle,2021-12-01,4,4.5,Bachelor's,YES,7,72,6.5,2018,E0039
+E0370,donald lane,33,MALE,houstonbrenda@example.com,001-779-262-1048x5783,Sales,Sales Manager,68339,45000-120000,Seattle,2018-04-17,6,3.0,PhD,Hybrid,45,0,9.8,2019,E0025
+E0371,Anthony Smith,39,Female,hardingkaren@example.org,258.260.6360,Legal,Compliance Officer,127709,65000-135000,Boston,2024-03-10,1,4.9,High School,hybrid,41,98,5.5,2022,E0015
+E0372,scott bond,58,Female,brendaperkins@example.org,+1-948-979-0795x446,Product,Product Manager,80479,75000-140000,New York,2016-04-30,9,4.7,Bachelor's,Hybrid,49,75,8.5,2021,E0015
+E0373,dr. amanda hall,46,Male,watsondeborah@example.org,757.263.0215,Engineering,Software Engineer,88061,70000-150000,Dallas,2024-08-31,1,1.1,PhD,No,4,NaN,2.6,2023,E0020
+E0374,SCOTT WILLIAMS,22,Non-binary,cristina45@example.com,847.292.3492,Legal,Legal Counsel,118939,65000-135000,Austin,2013-01-12,11,2.7,Associate's,NO,16,128,3.0,2020,E0034
+E0375,mark carr,61,Male,danthony@example.net,(588)352-4885x172,Product,Scrum Master,139089,75000-140000,San Francisco,2023-04-25,2,3.6,Associate's,YES,23,49,1.9,2024,E0002
+E0376,katrina smith,35,female,n/a,+1-839-876-1985x01489,HR,Recruiter,63494,45000-90000,New York,2022-03-29,2,3.3,High School,YES,n/a,79,n/a,2021,E0021
+E0377,Matthew Smith,28,Non-binary,campbellantonio@example.com,001-636-755-1693,Product,Product Manager,122558,75000-140000,Austin,NaN,5,4.5,Bachelor's,Hybrid,43,160,7.5,2024,E0010
+E0378,jodi terrell,55,Non-binary,lopezmarcus@example.org,846-896-3774x43274,Sales,Sales Manager,110748,45000-120000,Denver,2017-12-30,8,2.6,Master's,NO,9,127,1.1,2020,E0006
+E0379,BRANDI BIRD,40,Female,gibsoncarolyn@example.org,(227)245-3687x6683,Legal,Paralegal,77335,65000-135000,Austin,2018-04-17,7,2.9,PhD,YES,8,145,4.3,2021,E0044
+E0380,tanya harris,42,Non-binary,sextonwilliam@example.net,206-280-6799x08497,Sales,Business Dev Rep,102780,45000-120000,New York,2020-10-21,5,4.2,High School,Yes,6,40,8.7,2024,E0006
+E0381,catherine franklin,51,Male,david39@example.org,(834)988-4267,Operations,Process Engineer,80531,50000-95000,Chicago,2017-03-08,7,5.0,Associate's,No,30,116,N/A,2019,E0021
+E0382,ERIKA CROSBY,45,MALE,athomas@example.org,+1-274-238-8935,Engineering,Senior Engineer,148784,70000-150000,Denver,2013-10-12,12,1.6,PhD,YES,45,107,7.0,2024,E0028
+E0383,Ralph Mcdaniel,48,MALE,kevin09@example.com,+1-478-542-4052x49263,Operations,Supply Chain Analyst,69457,50000-95000,Denver,2023-12-11,2,4.3,High School,NO,46,157,7.0,2023,E0048
+E0384,PATRICIA PAGE,53,Non-binary,angela96@example.net,624.256.2760x833,Operations,Process Engineer,50929,50000-95000,New York,2022-05-09,2,3.6,High School,Yes,-,107,8.0,2019,E0013
+E0385,Jose Anderson,41,female,farleyethan@example.org,(554)215-6477x5030,Engineering,QA Engineer,118530,70000-150000,Atlanta,2019-12-27,5,3.2,High School,Hybrid,11,95,6.4,2021,E0043
+E0386,angela montgomery,28,Male,jramos@example.org,700.235.0760,Product,Product Manager,116556,75000-140000,Denver,2021-09-30,4,1.4,Associate's,NO,2,107,8.0,2018,E0031
+E0387,CYNTHIA RAMSEY,47,Male,martinwilliams@example.net,001-410-251-1251x85427,Marketing,Campaign Manager,72977,50000-100000,Seattle,2013-02-28,12,1.0,Associate's,Yes,N/A,132,6.4,2022,E0016
+E0388,jake thomas,25,female,perezmarcus@example.com,001-886-305-7213x67468,Product,Product Owner,87626,75000-140000,Austin,2015-11-22,9,2.7,Bachelor's,hybrid,32,147,8.6,2020,E0011
+E0389,Julia Rodriguez,NULL,female,jessica89@example.net,4864840848,Operations,Operations Manager,63353,50000-95000,New York,2023-05-14,1,3.5,PhD,No,14,137,7.5,2021,E0043
+E0390,Jennifer Morgan,62,female,rsimmons@example.org,+1-228-640-4240x01577,Engineering,Tech Lead,106040,70000-150000,Austin,2023-07-04,1,3.0,PhD,No,31,105,9.6,-,E0021
+E0391,DANIEL JACKSON,N/A,female,ucunningham@example.com,(267)923-8780x428,Legal,Legal Counsel,86116,65000-135000,Boston,2023-09-21,2,1.0,High School,hybrid,7,7,5.7,2019,E0008
+E0392,Brooke Ellis,30,Non-binary,perezdwayne@example.net,337-847-7844x297,HR,HR Manager,46933,45000-90000,Miami,2020-04-23,5,3.0,High School,YES,16,175,7.5,2018,E0050
+E0393,Sherri Crawford,53,MALE,christian29@example.com,718-468-3511x53858,Finance,CFO,81712,60000-130000,Dallas,2013-01-27,12,3.3,PhD,hybrid,28,8,3.3,2022,E0042
+E0394,Aaron Owen,42,MALE,gateswilliam@example.org,+1-278-645-2560x0259,Operations,Operations Manager,76103,50000-95000,Boston,2024-06-09,0,2.3,Bachelor's,hybrid,29,82,6.1,2022,E0014
+E0395,vickie pope,26,female,rodriguezeric@example.org,599-958-3839x109,Marketing,Brand Strategist,86762,50000-100000,Boston,2020-02-20,4,3.0,PhD,YES,28,83,3.1,NULL,E0037
+E0396,Tracy Robbins,47,Male,lallison@example.net,(866)434-0506x37830,Engineering,Software Engineer,130525,70000-150000,New York,2020-04-07,4,2.7,PhD,Hybrid,22,142,5.4,n/a,E0030
+E0397,andrea young,36,Male,monicalopez@example.com,726.689.4725x85462,Legal,Paralegal,80913,65000-135000,Denver,2019-04-01,5,4.6,PhD,NO,44,66,1.4,n/a,E0022
+E0398,Jake Evans,59,MALE,ayalajohn@example.net,325.306.1477x101,Product,Product Analyst,92688,75000-140000,Denver,2014-11-16,11,3.1,High School,YES,17,187,1.8,2023,E0036
+E0399,holly goodwin,26,Male,matthewsanchez@example.com,6287082700,HR,HR Manager,88219,45000-90000,Atlanta,2014-07-12,10,2.4,High School,NO,20,79,6.9,2018,E0015
+E0400,michelle doyle,47,Female,burnsalexis@example.net,332.390.9223x741,Operations,Logistics Coordinator,75269,50000-95000,Dallas,2017-05-31,7,1.4,Bachelor's,No,NaN,7,5.8,2018,E0006
+E0401,James Herring,49,female,fmontgomery@example.net,973.480.1895x49903,Operations,Logistics Coordinator,78277,50000-95000,Denver,2022-03-09,3,1.8,Master's,NO,38,110,1.4,2018,E0004
+E0402,Kyle Gregory,28,Non-binary,bartonnathaniel@example.com,001-248-255-3639,Engineering,QA Engineer,145396,70000-150000,San Francisco,2021-12-09,4,1.8,Master's,Hybrid,45,187,N/A,2023,E0048
+E0403,CARLA COLE,32,Female,ryansaunders@example.org,537.971.5321,Finance,Financial Analyst,91276,60000-130000,Denver,2022-07-01,2,4.5,Master's,hybrid,0,121,5.4,2018,NULL
+E0404,derek bates,31,Male,josephscott@example.com,826-888-0517x01192,Finance,CFO,89922,60000-130000,Boston,2016-09-20,8,2.0,Associate's,Yes,19,132,8.7,2022,E0018
+E0405,Joseph Brown,31,Non-binary,dmyers@example.org,001-227-933-9827x6440,Engineering,QA Engineer,89385,70000-150000,San Francisco,2019-01-22,6,4.9,High School,YES,33,173,4.0,2020,E0003
+E0406,ALEXANDER DAVENPORT,58,Non-binary,sarah39@example.net,836.295.8788x3211,Operations,Process Engineer,90132,50000-95000,Austin,2023-06-03,1,2.2,High School,hybrid,31,75,NULL,2024,E0004
+E0407,BETH VASQUEZ,22,Male,sara70@example.net,+1-541-365-5387x915,Legal,Paralegal,105084,65000-135000,Miami,2024-10-14,0,1.3,PhD,No,12,20,1.3,2019,E0041
+E0408,Hannah Hughes,41,female,ronaldrusso@example.com,001-853-683-6238x517,Product,UX Designer,102693,75000-140000,Austin,2018-07-24,6,2.7,Master's,Hybrid,19,160,2.7,2024,E0009
+E0409,andrew griffin,51,Non-binary,benjaminpowell@example.net,(665)497-6973,Legal,Contract Specialist,106059,65000-135000,Miami,NaN,8,1.6,PhD,No,23,139,8.9,NaN,E0043
+E0410,debra griffin,25,Male,mcguiregerald@example.com,+1-393-693-3763x450,Engineering,Software Engineer,130661,70000-150000,San Francisco,2013-08-02,12,2.3,Bachelor's,Yes,43,183,N/A,2022,E0032
+E0411,richard webb,41,Non-binary,juliebailey@example.com,001-520-412-0988x682,Sales,Business Dev Rep,74300,45000-120000,Chicago,2014-01-01,10,4.5,High School,Yes,6,129,1.5,2021,E0012
+E0412,carol russell,61,Male,steelemary@example.net,(721)962-5106x2523,HR,Recruiter,80829,45000-90000,Chicago,2021-12-17,4,2.9,PhD,Hybrid,37,170,4.5,2021,E0028
+E0413,PATRICK RICHARD,46,Male,jason13@example.com,+1-824-454-9451,-,Regional Manager,48666,45000-120000,Boston,2021-04-24,4,2.8,Bachelor's,No,32,180,5.6,2019,E0047
+E0414,Tricia Mathews,41,MALE,krystalgarcia@example.com,001-363-796-8961,Operations,Process Engineer,80112,50000-95000,Atlanta,2013-07-04,11,4.7,High School,Hybrid,20,148,6.6,2018,-
+E0415,jeremy johnson,52,Non-binary,brianna29@example.net,(478)681-0980x86687,Sales,Account Executive,75369,45000-120000,Austin,2024-01-29,1,2.7,Bachelor's,Yes,7,-,7.9,2024,N/A
+E0416,HAROLD MELTON,62,female,tammy92@example.net,+1-420-830-0137x637,Operations,Process Engineer,57055,50000-95000,Seattle,2013-06-15,11,3.1,Master's,Yes,40,24,8.3,2020,E0037
+E0417,john davis,55,MALE,samanthaarroyo@example.com,761-770-2482,Marketing,Brand Strategist,72328,50000-100000,Boston,2023-07-27,2,4.2,Associate's,YES,4,32,3.7,2019,E0035
+E0418,BRITTANY MCGUIRE,38,MALE,sprice@example.org,(285)456-3117,Operations,Supply Chain Analyst,51477,50000-95000,San Francisco,2021-09-05,3,4.7,High School,Hybrid,3,28,9.4,2023,n/a
+E0419,DENISE RASMUSSEN,25,Female,sherri76@example.org,(916)515-3615x26291,Product,UX Designer,92097,75000-140000,New York,2021-03-16,3,3.3,High School,hybrid,2,18,6.4,2018,E0031
+E0420,Nancy Carter,53,female,danielle18@example.org,214.200.8453x410,Sales,Business Dev Rep,80456,45000-120000,Chicago,NULL,11,N/A,High School,NO,43,4,1.5,2023,E0045
+E0421,Daniel Bates,61,Non-binary,mejiaholly@example.org,492.520.6456x40716,Product,Product Manager,111014,75000-140000,San Francisco,2022-08-21,2,4.0,High School,NO,NULL,63,1.7,2019,E0021
+E0422,Penny Rogers,30,female,logan08@example.net,001-408-295-9625x830,Operations,Operations Manager,none,50000-95000,Chicago,2015-01-01,10,4.4,Associate's,hybrid,23,74,3.2,2020,E0033
+E0423,ANTHONY SOSA,61,MALE,julieraymond@example.com,206-827-1484x7321,Marketing,SEO Specialist,53538,50000-100000,Miami,2020-07-20,5,2.5,Master's,Yes,44,195,2.0,2018,E0038
+E0424,Patrick Hays PhD,61,MALE,aaron32@example.net,(439)485-6992,Product,Product Owner,94687,75000-140000,Chicago,2023-07-08,1,3.1,PhD,Yes,22,155,4.0,2020,E0038
+E0425,lori thompson,49,MALE,hannah88@example.com,001-791-652-1487x89173,HR,HR Manager,46792,45000-90000,Miami,2020-11-25,5,5.0,High School,YES,46,132,9.6,2019,E0001
+E0426,Earl Stephens,40,Non-binary,robertjacobs@example.com,5259717575,n/a,CFO,95965,60000-130000,Seattle,2024-09-14,1,n/a,High School,hybrid,16,113,5.0,2020,E0036
+E0427,renee davis,39,female,wagneramy@example.net,001-502-892-4170x87178,HR,Talent Specialist,71778,45000-90000,Seattle,2024-09-10,0,3.5,Master's,NO,14,9,5.6,2020,-
+E0428,JUDITH HANEY,23,Non-binary,ewingbrian@example.org,+1-768-785-4988,HR,Recruiter,48985,45000-90000,San Francisco,2013-04-26,11,1.9,PhD,NO,43,164,3.5,none,E0022
+E0429,CHRISTINA JONES,40,female,n/a,+1-217-847-5838x892,Product,Product Analyst,133811,75000-140000,New York,2014-08-05,10,3.0,High School,NO,13,149,-,2024,E0006
+E0430,david delacruz,62,female,edward30@example.com,5502836895,Marketing,Marketing Manager,64718,50000-100000,Miami,2016-09-13,9,3.1,Associate's,Hybrid,36,62,8.2,2019,E0048
+E0431,ANNA NORRIS,48,Non-binary,joneswyatt@example.net,520.245.1523,Marketing,Marketing Manager,95421,50000-100000,Atlanta,2022-04-05,3,1.9,Master's,NO,26,170,3.3,2020,E0027
+E0432,jessica burton md,34,Female,pmiller@example.net,527-523-0684x9631,NULL,Product Owner,108097,75000-140000,Miami,2023-04-27,2,1.5,Bachelor's,YES,N/A,33,5.8,2021,E0026
+E0433,CHRISTINE BRYAN,43,female,yphillips@example.org,+1-368-336-0163x63597,HR,HR Manager,n/a,45000-90000,Atlanta,2024-10-07,1,4.3,PhD,YES,46,196,8.4,2019,E0038
+E0434,ANNA OCHOA,50,Female,deckerkatrina@example.org,+1-743-362-7702x256,Operations,Operations Manager,94165,50000-95000,Atlanta,2015-08-01,10,3.1,High School,YES,24,45,1.4,2023,E0034
+E0435,THOMAS WATSON,29,Non-binary,misty38@example.net,001-550-520-9015,Finance,Accountant,101204,60000-130000,Seattle,2023-04-19,1,3.7,Master's,Yes,32,7,1.4,2022,E0001
+E0436,Jeffrey Davenport,58,MALE,amandagrant@example.com,272.859.5257,Legal,Contract Specialist,68378,65000-135000,San Francisco,2019-05-03,5,2.7,PhD,Yes,17,29,8.2,2019,E0021
+E0437,HALEY GARZA,54,Male,keith79@example.org,(256)475-2957x386,Sales,Sales Rep,111461,45000-120000,Miami,2020-07-25,5,4.5,Bachelor's,hybrid,15,96,3.0,2021,E0012
+E0438,Brian Scott,27,female,hernandezdavid@example.net,(687)294-8400x0058,Legal,Legal Counsel,102040,65000-135000,Atlanta,2022-08-02,2,1.2,PhD,NO,37,89,6.9,2020,E0019
+E0439,amy foster,44,female,uanderson@example.org,+1-211-722-4269x675,Legal,Legal Counsel,129254,65000-135000,Seattle,2013-04-02,12,3.6,Bachelor's,No,20,88,7.3,2021,E0032
+E0440,Colin Hodges,54,Female,sheilawelch@example.org,845.938.8953x66844,Product,Product Manager,120037,75000-140000,Boston,2021-11-22,3,4.2,Associate's,YES,3,186,6.7,NaN,E0037
+E0441,alicia robinson md,61,female,brendacaldwell@example.org,(553)870-1328,Sales,Sales Rep,115256,45000-120000,New York,2021-04-03,3,2.3,PhD,NO,3,92,9.9,2021,E0015
+E0442,MATTHEW WALTON,57,Female,elizabeth49@example.net,401-491-3992,NULL,Controller,81155,60000-130000,Denver,2019-02-13,5,2.2,Master's,hybrid,15,-,8.1,2019,E0018
+E0443,jennifer lloyd,48,Male,none,001-240-250-4138,Marketing,SEO Specialist,55015,50000-100000,Dallas,2023-07-18,1,4.4,PhD,YES,1,117,3.4,2021,E0028
+E0444,dustin walters,40,female,ucline@example.com,(634)276-3066x051,Marketing,Brand Strategist,64565,50000-100000,Boston,2018-04-21,6,3.3,Bachelor's,YES,28,144,3.8,2023,E0007
+E0445,victor duncan,31,MALE,amandasullivan@example.org,355.483.0344,Sales,Regional Manager,72221,45000-120000,New York,2017-09-16,7,4.0,Master's,Yes,36,1,2.9,2021,E0021
+E0446,clifford roth,57,Male,ramirezdaniel@example.net,872-993-8066x2627,HR,HR Manager,66091,45000-90000,New York,2017-05-05,7,2.8,Bachelor's,Yes,31,134,7.7,2021,NULL
+E0447,megan brown,42,female,zoebuchanan@example.org,973.220.2296,Product,Product Analyst,94282,75000-140000,Miami,2014-09-21,11,2.5,High School,Hybrid,13,191,8.7,2022,E0031
+E0448,Vernon Blankenship,26,Male,john89@example.org,+1-655-522-4068x946,Engineering,Software Engineer,111640,70000-150000,Boston,2019-10-02,6,1.6,PhD,hybrid,14,3,3.5,2024,E0047
+E0449,BRIAN SMITH,57,female,lhernandez@example.org,+1-619-980-9660,Finance,Controller,108139,60000-130000,Chicago,2015-09-27,9,1.5,High School,NO,24,197,6.4,2023,E0043
+E0450,Lori Robinson,35,Male,hillautumn@example.net,577-499-0840,Legal,Compliance Officer,92434,65000-135000,New York,2022-02-23,2,4.2,Associate's,hybrid,19,30,4.5,2023,E0020
+E0451,christopher parker,32,Non-binary,campbellmatthew@example.net,+1-436-246-0615x242,Operations,Process Engineer,84779,50000-95000,Seattle,2024-07-25,1,3.6,Master's,Yes,29,88,2.9,2019,E0012
+E0452,APRIL PATEL,22,female,flee@example.org,253.753.6727x35946,Engineering,DevOps Engineer,95668,70000-150000,Miami,2018-09-14,7,3.6,Associate's,YES,-,70,9.7,2024,E0031
+E0453,MATTHEW COLLINS,56,Male,NULL,837-596-4640,Legal,Compliance Officer,129264,65000-135000,Austin,2022-05-15,2,4.3,Bachelor's,Yes,45,24,3.5,2023,E0002
+E0454,tricia york,59,Non-binary,vwerner@example.org,+1-467-812-0781x44191,Operations,Process Engineer,94039,50000-95000,New York,2020-05-28,5,2.1,Master's,YES,none,129,6.7,2018,E0036
+E0455,MATTHEW HERNANDEZ,27,female,april18@example.net,+1-419-580-0640x795,Operations,Operations Manager,57714,50000-95000,San Francisco,2020-08-28,5,1.1,Master's,Yes,23,185,3.8,2024,E0049
+E0456,TODD OLIVER,33,Non-binary,snydersandra@example.net,802.606.0245,Sales,Account Executive,85696,45000-120000,Seattle,2024-03-31,0,2.0,Associate's,Hybrid,22,89,5.7,2023,E0003
+E0457,chase blanchard,49,Non-binary,bernardjames@example.org,(480)203-5188x9344,Product,UX Designer,85204,75000-140000,Miami,2016-10-02,8,4.1,PhD,No,2,132,2.7,2022,E0037
+E0458,Matthew Moore,28,Non-binary,elijahunderwood@example.org,(658)561-2255x975,NaN,Product Owner,118142,75000-140000,San Francisco,2016-01-02,9,2.9,Master's,Yes,39,147,7.6,2019,E0024
+E0459,MICHAEL MILLER,36,female,erin91@example.com,219-570-9906x5587,Operations,Logistics Coordinator,81624,50000-95000,Denver,2014-06-17,10,4.7,High School,hybrid,12,145,2.2,2018,E0020
+E0460,EILEEN WILKINSON,22,Female,lcallahan@example.org,+1-502-364-4075x475,Sales,Sales Manager,90364,45000-120000,Chicago,2018-03-24,7,2.0,High School,Hybrid,N/A,120,4.5,2021,E0030
+E0461,Destiny Garcia,30,MALE,henryalbert@example.com,848-462-0919,HR,Talent Specialist,51279,45000-90000,Miami,2019-05-16,6,4.9,Bachelor's,No,11,94,5.5,none,E0005
+E0462,Mary Stewart,41,MALE,robertthomas@example.net,301-441-7917x626,HR,Recruiter,54049,45000-90000,Seattle,2018-11-23,7,1.1,Associate's,No,43,27,1.7,2018,E0026
+E0463,Antonio Carlson,46,MALE,-,(267)976-4449,Engineering,QA Engineer,91087,70000-150000,New York,2019-09-22,5,1.5,Associate's,NO,30,136,2.0,2021,E0025
+E0464,SANDRA ORTIZ,59,Non-binary,ygreen@example.org,001-942-726-3642x709,Marketing,Brand Strategist,59855,50000-100000,Atlanta,2024-03-03,0,2.8,Bachelor's,NO,16,172,8.4,2019,E0027
+E0465,MR. JOSEPH ORTIZ JR.,60,Male,cummingsshane@example.net,+1-587-644-6718,-,QA Engineer,128559,70000-150000,San Francisco,2019-05-10,5,3.5,Associate's,Hybrid,29,62,9.1,2024,E0030
+E0466,BRANDON WILLIAMS,none,Male,daniel23@example.com,465-856-6113x4565,Engineering,Software Engineer,80031,70000-150000,Seattle,2019-01-23,5,4.0,Bachelor's,YES,50,66,6.5,2024,E0004
+E0467,Olivia Chandler,49,Non-binary,gomezjennifer@example.net,4768375711,Operations,Logistics Coordinator,87574,50000-95000,New York,2017-07-05,7,2.1,Associate's,No,NaN,70,6.4,2020,E0015
+E0468,Kristina Long,60,MALE,martinmichele@example.net,+1-813-938-3445x91151,Engineering,DevOps Engineer,112547,70000-150000,Atlanta,2021-01-13,3,2.3,Associate's,No,47,136,7.1,2018,E0037
+E0469,caleb hernandez,27,Female,william93@example.org,+1-250-981-3004x304,Marketing,Content Writer,91378,50000-100000,Boston,2018-04-24,7,none,High School,No,36,195,n/a,2021,E0025
+E0470,Leslie Petty,35,Female,lauramiller@example.net,711-308-4287x77529,Sales,Account Executive,94601,45000-120000,Denver,2015-12-27,9,2.7,High School,Hybrid,23,170,9.6,2020,E0035
+E0471,HEATHER TURNER,40,MALE,jalexander@example.org,(692)647-1169x09407,Product,Product Owner,89752,75000-140000,Miami,2019-04-21,6,3.7,Bachelor's,YES,26,105,1.3,2022,E0006
+E0472,AMY HILL,32,female,williamthomas@example.com,446-637-9522,Product,UX Designer,none,75000-140000,Denver,2024-04-08,0,1.6,PhD,hybrid,11,182,3.9,2018,E0030
+E0473,tiffany johnson,37,Female,brandongarcia@example.net,+1-279-425-6027x66438,Legal,Legal Counsel,97118,65000-135000,Boston,2014-06-13,10,3.9,Bachelor's,Yes,43,133,8.8,NaN,E0046
+E0474,thomas brown,56,Male,eugene59@example.org,923.980.4981x679,Marketing,Marketing Manager,96910,50000-100000,Denver,2012-02-10,12,3.9,High School,hybrid,27,26,3.4,2024,E0047
+E0475,dawn lopez,37,MALE,hunterdavid@example.net,001-760-221-2447x9475,Sales,Sales Rep,93033,45000-120000,Atlanta,2018-09-24,6,3.8,PhD,YES,36,9,2.3,2019,E0037
+E0476,angela knight,62,Non-binary,michaelkemp@example.net,(661)383-8391,Operations,Logistics Coordinator,69085,50000-95000,Austin,2020-10-26,4,2.0,Master's,Yes,37,149,n/a,2023,E0034
+E0477,Cynthia Mason,31,female,robertkirk@example.net,922.280.3624x110,Product,UX Designer,106258,75000-140000,Atlanta,2016-06-21,9,2.9,Associate's,Yes,4,79,2.4,2023,E0042
+E0478,DANIEL KING,62,Male,wfreeman@example.org,001-910-384-6752,HR,People Ops,68363,45000-90000,Chicago,2017-02-03,7,1.4,PhD,NO,35,189,1.7,2021,E0016
+E0479,anthony mann,37,Female,keithgreen@example.net,228.927.2032x464,HR,HR Manager,61781,45000-90000,Seattle,2012-04-03,12,3.9,Bachelor's,No,3,62,6.2,2022,E0004
+E0480,Dustin Farmer,50,Male,nicholasmcintosh@example.org,(234)676-6325x7844,Operations,Supply Chain Analyst,91543,50000-95000,Seattle,2024-08-18,1,4.6,Associate's,hybrid,40,116,3.3,2020,E0012
+E0481,joseph marshall,41,Non-binary,tonyavasquez@example.net,(764)360-0067x53684,Operations,Logistics Coordinator,83245,50000-95000,Miami,2018-03-27,7,4.0,Master's,YES,none,41,7.8,2018,E0029
+E0482,justin jones iv,34,Male,hhunter@example.org,(239)809-5241x803,Operations,Logistics Coordinator,91804,50000-95000,Miami,2015-12-03,10,3.4,High School,hybrid,10,101,8.7,2019,E0034
+E0483,preston smith,38,MALE,ryanwatson@example.net,211.653.4872x0668,Legal,Paralegal,119645,65000-135000,Boston,2012-11-18,12,2.7,Associate's,YES,NaN,104,8.2,2024,E0046
+E0484,william smith,45,Male,laurastewart@example.com,+1-647-950-3276x7381,HR,HR Coordinator,58671,45000-90000,Chicago,2015-09-25,10,4.4,Bachelor's,Yes,20,184,9.6,2024,E0045
+E0485,katelyn long,25,Male,emilypierce@example.org,(945)828-1230,Legal,Paralegal,97747,65000-135000,Seattle,2020-05-17,4,1.3,Associate's,No,37,51,4.9,2022,E0017
+E0486,Danny Johnson,42,Non-binary,nicolerosales@example.org,+1-940-821-5592,Finance,Accountant,62864,60000-130000,Atlanta,2023-01-06,2,3.7,PhD,Hybrid,1,164,4.6,2018,E0004
+E0487,MELISSA CASTILLO,54,Non-binary,david99@example.com,773-914-3054x8060,Operations,Logistics Coordinator,51061,50000-95000,San Francisco,2016-07-25,9,3.1,High School,Yes,29,48,7.9,2020,E0048
+E0488,Christie Hogan,43,MALE,randy22@example.com,+1-213-499-5174,Sales,Business Dev Rep,88310,45000-120000,Denver,2023-01-07,1,2.6,Bachelor's,No,9,57,7.9,2023,E0050
+E0489,Zachary Williams,35,Non-binary,perry03@example.net,(771)334-7925x10116,none,Operations Manager,87804,50000-95000,Miami,2022-03-12,2,2.3,Master's,hybrid,19,69,9.3,2018,E0029
+E0490,JARED HAYDEN,35,MALE,patrickcheryl@example.com,947.563.7635x26795,Marketing,SEO Specialist,74583,50000-100000,Denver,2024-03-04,0,1.7,High School,hybrid,10,30,7.7,2020,E0014
+E0491,KATHLEEN MCKENZIE,29,MALE,NaN,001-696-931-6393x1824,Marketing,Brand Strategist,83220,50000-100000,San Francisco,2019-11-14,5,2.7,PhD,No,5,99,1.1,2023,E0021
+E0492,Tony Chen,30,female,paulhoover@example.org,6374244630,Engineering,Software Engineer,N/A,70000-150000,Seattle,2022-03-01,3,2.7,Master's,NO,47,171,8.9,2019,N/A
+E0493,CHRISTOPHER BENNETT,38,female,bryantsarah@example.com,(719)329-1594,Finance,CFO,NaN,60000-130000,New York,2014-05-28,10,1.2,Associate's,NO,10,3,3.0,2018,E0031
+E0494,CHRISTINE CHANDLER,60,Male,perezstephen@example.net,425.391.4160,Legal,Paralegal,119404,65000-135000,Miami,2017-09-20,8,1.4,Associate's,hybrid,36,56,8.2,2023,E0007
+E0495,Randall Porter,38,Female,hornbob@example.org,701.488.5444x1189,Product,Product Owner,93500,75000-140000,Miami,2015-10-01,9,1.5,Associate's,Hybrid,37,8,8.2,2024,E0012
+E0496,Paul Martinez,37,Female,tonya07@example.org,869.653.8329x05010,NaN,QA Engineer,88737,70000-150000,Chicago,2015-08-15,10,5.0,Associate's,NO,28,71,5.6,2019,E0032
+E0497,JASON HOWARD,38,Male,dixonjoshua@example.com,001-581-844-1943x441,Legal,Legal Counsel,77648,65000-135000,Austin,2015-04-14,10,1.5,PhD,No,19,141,1.7,2022,E0033
+E0498,Ryan Graham,34,Non-binary,danielsteven@example.com,+1-873-212-1151,HR,People Ops,54287,45000-90000,Miami,2015-06-30,10,1.9,High School,No,6,162,6.6,2024,E0035
+E0499,KATHRYN HARRISON,47,Non-binary,ramirezbenjamin@example.com,(721)640-4451,Product,Product Owner,131249,75000-140000,Atlanta,2021-11-04,3,n/a,High School,hybrid,46,17,NaN,2021,E0049
+E0500,Alyssa Gibbs,47,female,rachelross@example.org,(706)746-5430,HR,HR Manager,70640,45000-90000,Seattle,2013-02-15,12,4.0,Master's,No,43,83,NULL,2022,E0041
+E0077,MRS. AMY BRADSHAW,40,Non-binary,wmatthews@example.com,386-930-9770,Product,Product Manager,117787,75000-140000,Chicago,2017-02-08,7,1.7,Master's,Yes,25,47,9.7,2018,none
+E0061,DARRYL MARTINEZ,44,female,phillip16@example.org,(946)393-0310,Marketing,Brand Strategist,88135,50000-100000,Atlanta,2013-05-19,11,4.1,Associate's,Yes,2,10,3.8,2024,E0017
+E0030,mary hanson,38,female,stephaniepeterson@example.org,+1-484-847-1301x555,Finance,Budget Analyst,119510,60000-130000,Chicago,2023-09-30,1,1.3,Master's,Hybrid,36,112,7.2,2020,E0032
+E0085,shannon riley,33,MALE,howelljohn@example.org,358.441.3871x66837,Finance,CFO,67989,60000-130000,Denver,2016-11-22,8,2.6,PhD,YES,34,57,7.4,2018,E0027
+E0057,SUSAN GREEN,50,Female,christopherwilkins@example.com,412.372.1526,HR,Talent Specialist,74111,45000-90000,Chicago,2016-08-07,9,2.8,PhD,YES,26,51,2.2,2023,E0024
+E0039,Dominic Forbes,44,Female,joshuaroberson@example.com,855.662.4808,Legal,Compliance Officer,102512,65000-135000,New York,2013-03-27,12,n/a,Master's,Yes,20,44,8.1,2020,E0018
+E0016,maria miller,58,Female,robinsontracy@example.org,511-767-2382,Operations,Operations Manager,78599,50000-95000,Miami,2016-11-17,9,2.7,PhD,NO,7,76,7.0,2023,E0009
+E0070,WALTER HOGAN,32,Non-binary,mgrant@example.org,759.432.1786,Finance,Accountant,110351,60000-130000,Atlanta,2016-04-23,9,2.2,Bachelor's,Yes,32,61,4.2,NaN,E0042
+E0096,megan nguyen,34,MALE,jacksontracy@example.com,(488)668-5756x4748,Sales,Sales Manager,84378,45000-120000,Atlanta,2019-09-06,5,2.1,Associate's,Hybrid,36,139,7.9,-,E0046
+E0079,David Hooper,28,Female,lesliehall@example.com,9407189955,Product,Product Analyst,NaN,75000-140000,Chicago,2019-10-01,5,2.2,High School,Yes,23,15,5.2,2023,E0046
+E0059,GEORGE GONZALEZ,30,MALE,emarsh@example.com,001-214-416-8425,NULL,Sales Rep,50020,45000-120000,Austin,2021-09-15,4,1.4,PhD,No,3,163,5.1,2021,E0002
+E0020,caleb myers,39,Non-binary,dsilva@example.net,+1-323-848-4257x511,Finance,Accountant,117654,60000-130000,Denver,2024-12-24,1,2.7,PhD,NO,3,107,7.9,2018,E0049
+E0010,terri walker,57,MALE,fmadden@example.org,+1-576-641-0094x885,Finance,Financial Analyst,115444,60000-130000,Miami,2013-11-18,11,3.3,High School,NO,32,47,NULL,2019,E0037
+E0097,RACHEL MONTOYA,26,MALE,berrypatricia@example.com,+1-448-472-7949x80305,HR,HR Coordinator,73734,45000-90000,Austin,2013-01-21,12,5.0,Associate's,NO,32,177,1.3,2023,E0035
+E0093,James Smith,46,MALE,landerson@example.com,001-230-215-5103x145,Finance,Budget Analyst,119054,60000-130000,Dallas,2017-09-10,7,1.3,Master's,YES,40,99,2.0,n/a,E0049
+E0044,Michele Watkins,25,Female,ryangamble@example.net,948.549.3003,HR,HR Manager,83591,45000-90000,Boston,2019-04-22,5,1.9,High School,Yes,42,117,1.3,2024,E0044
+E0035,KATHY BRADLEY,48,Male,harperwilliam@example.org,+1-317-705-8899x74656,HR,Talent Specialist,60650,45000-90000,Austin,2015-02-07,9,4.9,PhD,Yes,28,116,N/A,2023,E0005
+E0006,David Moore,32,female,iburnett@example.net,001-278-491-0329x71307,Finance,Financial Analyst,126540,60000-130000,Atlanta,n/a,9,4.3,PhD,No,none,21,8.3,2022,E0009
+E0049,Nicole Edwards,25,Male,farleysteven@example.com,7543883328,Marketing,Brand Strategist,53447,50000-100000,Denver,2023-06-09,2,2.7,PhD,hybrid,31,78,NaN,2018,n/a
+E0033,Tamara Parker,60,Female,zbowers@example.org,320-638-4195,Legal,Legal Counsel,128532,65000-135000,San Francisco,2023-04-27,1,1.5,Master's,YES,18,69,5.3,2021,E0025
